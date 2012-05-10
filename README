@@ -1,21 +1,24 @@
-В данном репозитории находится исходный код перевода книги "Структура и интерпретация
-компьютерных программ".
+В данном репозитории находится исходный код перевода книги "Структура и
+интерпретация компьютерных программ".
 
-Данная работа лицензирована под "Creative Commons Attribution-NonCommercial-ShareAlike 3.0
-Unported" (CC BY-NC-SA 3.0). Подробней об этой лицензии вы можете прочитать по следующему
-адресу http://creativecommons.org/licenses/by-nc-sa/3.0/
+Данная работа лицензирована под "Creative Commons
+Attribution-NonCommercial-ShareAlike 3.0 Unported" (CC BY-NC-SA
+3.0). Подробней об этой лицензии вы можете прочитать по следующему адресу
+http://creativecommons.org/licenses/by-nc-sa/3.0/
 
-Вы можете помочь в работе по улучшению перевода данного текста -- если вы нашли опечатки
-или другие неточности в печатном или электронном варианте, создайте ошибку используя
-интерфейс Github, или поправьте ее в вашей копии и сделайте Pull Request.  Также требуется
-помощь и для реализации других улучшений -- создания версии для E-Ink устройств, и может
-быть, поддержка конвертации в другие форматы, такие как ePub & Mobi.
+Вы можете помочь в работе по улучшению перевода данного текста -- если вы
+нашли опечатки или другие неточности в печатном или электронном варианте,
+создайте ошибку используя интерфейс Github, или поправьте ее в вашей копии
+и сделайте Pull Request.  Также требуется помощь и для реализации других
+улучшений -- создания версии для E-Ink устройств, и может быть, поддержка
+конвертации в другие форматы, такие как ePub & Mobi.
 
-==========================================================================================
+============================================================================
 
-This repository contains source code for Russian translation of Structure and
-Interpretation of Computer Programs (SICP) book.  
+This repository contains source code for Russian translation of Structure
+and Interpretation of Computer Programs (SICP) book.
 
-This work is is licensed under "Creative Commons Attribution-NonCommercial-ShareAlike 3.0
-Unported" (CC BY-NC-SA 3.0). See http://creativecommons.org/licenses/by-nc-sa/3.0/ for
-more details & full text of license.
+This work is is licensed under "Creative Commons
+Attribution-NonCommercial-ShareAlike 3.0 Unported" (CC BY-NC-SA 3.0). See
+http://creativecommons.org/licenses/by-nc-sa/3.0/ for more details & full
+text of license.
