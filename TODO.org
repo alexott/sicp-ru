@@ -4,3 +4,10 @@
  - [ ] Correct work with UTF-8
  - [ ] Write Makefile
  - [ ] Correct indexes (take code from tapl-ru)
+
+
+* Formats/Layouts
+
+ - [ ] For print
+ - [ ] For 6" reading devices on E-ink
+ - [ ] ePub?
