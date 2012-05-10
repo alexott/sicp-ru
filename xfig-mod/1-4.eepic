@@ -1,0 +1,43 @@
+\setlength{\unitlength}{0.00083333in}
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+{\renewcommand{\dashlinestretch}{30}
+\begin{picture}(2020,1916)(0,-10)
+\path(1500,1875)(1501,1875)(1502,1876)
+	(1505,1876)(1510,1877)(1517,1879)
+	(1525,1880)(1536,1882)(1549,1884)
+	(1563,1886)(1579,1887)(1597,1888)
+	(1615,1889)(1635,1889)(1655,1887)
+	(1675,1885)(1696,1881)(1717,1875)
+	(1737,1867)(1758,1857)(1779,1845)
+	(1799,1829)(1820,1810)(1840,1788)
+	(1860,1761)(1879,1729)(1898,1692)
+	(1917,1650)(1934,1603)(1950,1550)
+	(1962,1503)(1972,1453)(1981,1403)
+	(1988,1352)(1995,1300)(1999,1248)
+	(2003,1197)(2006,1146)(2007,1095)
+	(2008,1044)(2008,994)(2007,944)
+	(2006,894)(2004,844)(2002,795)
+	(1999,746)(1996,698)(1992,650)
+	(1988,603)(1985,558)(1981,515)
+	(1977,473)(1973,434)(1969,397)
+	(1966,364)(1962,334)(1960,308)
+	(1957,286)(1955,267)(1953,253)
+	(1952,242)(1950,225)
+\path(1941.237,407.272)(1950.000,225.000)(2000.826,400.262)
+\put(0,1800){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}(factorial 6)}}}}}
+\put(0,675){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}(fact-iter  24 5 6)}}}}}
+\put(0,450){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}(fact-iter 120 6 6)}}}}}
+\put(0,225){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}(fact-iter 720 7 6)}}}}}
+\put(0,0){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}720}}}}}
+\put(0,900){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}(fact-iter   6 4 6)}}}}}
+\put(0,1125){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}(fact iter   2 3 6)}}}}}
+\put(0,1350){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}(fact-iter   1 2 6)}}}}}
+\put(0,1575){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}(fact-iter   1 1 6)}}}}}
+\end{picture}
+}

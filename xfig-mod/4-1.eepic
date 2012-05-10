@@ -1,0 +1,31 @@
+\setlength{\unitlength}{0.00083333in}
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+{\renewcommand{\dashlinestretch}{30}
+\begin{picture}(4989,2206)(0,-10)
+%  text 
+\put(3990,1133){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}выражение,}}}}}
+%  text 
+\put(3990,833){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}окружение}}}}}
+%  text 
+\put(0,1133){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}процедура,}}}}}
+%  text 
+\put(0,833){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}аргументы}}}}}
+%  text 
+\put(2622,889){\makebox(0,0)[lb]{\smash{{{\SetFigFont{11}{13.2}{\rmdefault}{\bfdefault}{\updefault}Apply}}}}}
+%  text 
+\put(1647,859){\makebox(0,0)[lb]{\smash{{{\SetFigFont{11}{13.2}{\rmdefault}{\bfdefault}{\updefault}Eval}}}}}
+\put(2798.596,986.618){\arc{880.838}{3.3044}{6.2914}}
+\put(2077.500,1095.500){\arc{2326.209}{1.9333}{4.3498}}
+\blacken\path(1512.987,36.252)(1665.000,8.000)(1544.166,104.464)(1512.987,36.252)
+\put(2650.500,1095.500){\arc{2326.209}{5.0749}{7.4914}}
+\blacken\path(3215.013,2154.748)(3063.000,2183.000)(3183.834,2086.536)(3215.013,2154.748)
+\put(1936.788,922.985){\arc{896.077}{5.9771}{9.3913}}
+\put(2364,970){\ellipse{1750}{1750}}
+\end{picture}
+}

@@ -1,0 +1,50 @@
+\setlength{\unitlength}{0.00083333in}
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+{\renewcommand{\dashlinestretch}{30}
+\begin{picture}(4929,2290)(0,-10)
+%  text 
+\put(1484,1125){\makebox(0,0)[lb]{\smash{{{\SetFigFont{9}{10.8}{\rmdefault}{\bfdefault}{\updefault}real-part   imag-part}}}}}
+%  text 
+\put(1482,868){\makebox(0,0)[lb]{\smash{{{\SetFigFont{9}{10.8}{\rmdefault}{\bfdefault}{\updefault}magnitude   angle}}}}}
+%  polyline 
+\path(2412,748)(2412,238)
+%  polyline 
+\path(312,1828)(12,1828)
+%  polyline 
+\path(4642,1813)(4917,1813)
+%  polyline 
+\path(312,1963)(4642,1963)(4642,1693)
+	(312,1693)(312,1963)
+%  polyline 
+\path(1392,1018)(12,1018)
+%  polyline 
+\path(4917,1003)(3477,1003)
+%  polyline 
+\path(3462,763)(1392,763)(1392,1273)
+	(3462,1273)(3462,763)
+%  polyline 
+\path(4917,238)(12,238)
+%  text 
+\put(134,0){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}Списковая структура и элементарные арифметические операции машины}}}}}
+%  text 
+\put(509,1800){\makebox(0,0)[lb]{\smash{{{\SetFigFont{9}{10.8}{\rmdefault}{\bfdefault}{\updefault}add-complex sub-complex mul-complex div-complex}}}}}
+%  text 
+\put(1218,2143){\makebox(0,0)[lb]{\smash{{{\SetFigFont{11}{13.2}{\rmdefault}{\mddefault}{\updefault}Программы, использующие комплексные числа}}}}}
+%  text 
+\put(1462,1438){\makebox(0,0)[lb]{\smash{{{\SetFigFont{11}{13.2}{\rmdefault}{\mddefault}{\updefault}Пакет комплексной арифметики}}}}}
+%  text 
+\put(809,525){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{\familydefault}{\mddefault}{\updefault}Декартово}}}}}
+%  text 
+\put(809,371){\makebox(0,0)[lb]{\smash{{{\SetFigFont{11}{13.2}{\familydefault}{\mddefault}{\updefault}представление}}}}}
+%  text 
+\put(3359,525){\makebox(0,0)[lb]{\smash{{{\SetFigFont{11}{13.2}{\familydefault}{\mddefault}{\updefault}Полярное}}}}}
+%  text 
+\put(3359,375){\makebox(0,0)[lb]{\smash{{{\SetFigFont{11}{13.2}{\familydefault}{\mddefault}{\updefault}представление}}}}}
+\end{picture}
+}

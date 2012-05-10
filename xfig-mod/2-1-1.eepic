@@ -1,0 +1,36 @@
+\setlength{\unitlength}{0.00083333in}
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+{\renewcommand{\dashlinestretch}{30}
+\begin{picture}(4524,3072)(0,-10)
+\path(1112,2220)(3412,2220)(3412,1845)
+	(1112,1845)(1112,2220)
+\path(4487,2045)(3412,2045)
+\path(1112,1395)(3412,1395)(3412,1020)
+	(1112,1020)(1112,1395)
+\path(1512,645)(3012,645)(3012,270)
+	(1512,270)(1512,645)
+\path(4487,1195)(3412,1195)
+\path(1112,2045)(12,2045)
+\path(1112,1195)(12,1195)
+\path(1512,445)(12,445)
+\path(4512,445)(3012,445)
+\path(4037,2895)(4512,2895)
+\path(387,3045)(4037,3045)(4037,2670)
+	(387,2670)(387,3045)
+\path(12,2895)(387,2895)
+\put(912,2445){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}Рациональные числа в проблемной области}}}}}
+\put(2337,1170){\makebox(0,0)[b]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}make-rat numer denom}}}}}
+\put(2262,420){\makebox(0,0)[b]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}cons car cdr}}}}}
+\put(1362,1995){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}add-rat sub-rat ...}}}}}
+\put(612,1620){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}Рациональные числа как числители со знаменателями}}}}}
+\put(1212,795){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}Рациональные числа как пары}}}}}
+\put(1212,45){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}То, как реализуются пары}}}}}
+\put(462,2820){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}Программы, использующие рациональные числа}}}}}
+\end{picture}
+}

@@ -1,0 +1,58 @@
+\setlength{\unitlength}{0.00083333in}
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+{\renewcommand{\dashlinestretch}{30}
+\begin{picture}(5344,1561)(0,-10)
+%  polyline 
+\path(1712,1332)(1712,12)
+%  polyline 
+\path(4172,1317)(4172,12)
+%  polyline 
+\path(1662,1332)(1762,1332)
+%  polyline 
+\path(1712,627)(4172,627)
+%  polyline 
+\path(2931,612)(2931,12)
+%  polyline 
+\path(12,12)(5332,12)
+%  polyline 
+\path(112,1317)(12,1317)
+%  text 
+\put(4272,1287){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}+ - * /}}}}}
+%  text 
+\put(182,1392){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}add-rat sub-rat}}}}}
+%  text 
+\put(537,834){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}Рациональная}}}}}
+%  text 
+\put(537,609){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}арифметика}}}}}
+%  text 
+\put(2112,834){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}Комплексная арифметика}}}}}
+%  text 
+\put(4262,834){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}Обыкновенная}}}}}
+%  text 
+\put(4262,609){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}арифметика}}}}}
+%  text 
+\put(2037,309){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}Декартова}}}}}
+%  text 
+\put(3162,309){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}Полярная}}}}}
+%  text 
+\put(1842,1392){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}add-complex sub-complex}}}}}
+%  text 
+\put(1842,1197){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}mul-complex div-complex}}}}}
+%  text 
+\put(182,1197){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}mul-rat div-rat}}}}}
+\path(5092,1317)(5332,1317)
+\path(4262,1534)(5092,1534)(5092,1134)
+	(4262,1134)(4262,1534)
+\path(1762,1534)(4137,1534)(4137,1134)
+	(1762,1134)(1762,1534)
+\path(112,1534)(1662,1534)(1662,1134)
+	(112,1134)(112,1534)
+\path(4137,1317)(4262,1317)
+\end{picture}
+}

@@ -1,0 +1,127 @@
+\setlength{\unitlength}{0.00083333in}
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+{\renewcommand{\dashlinestretch}{30}
+\begin{picture}(5257,3746)(0,-10)
+%  polyline 
+\path(992,3719)(5106,3719)(5106,3162)
+	(992,3162)(992,3719)
+%  polyline 
+\path(3019,2855)(5075,2855)(5075,2022)
+	(3019,2022)(3019,2855)
+%  polyline 
+\path(2508,1511)(3311,1511)(3311,1097)
+	(2508,1097)(2508,1511)
+%  polyline 
+\path(3182,618)(3985,618)(3985,204)
+	(3182,204)(3182,618)
+%  text 
+\put(0,3514){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}глобальное}}}}}
+%  text 
+\put(0,3331){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}окружение}}}}}
+%  polyline 
+\path(594,3449)(974,3449)
+%  polyline 
+\path(877,3488)(974,3449)(877,3411)
+%  text 
+\put(1048,3430){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}sqrt:}}}}}
+%  text 
+\put(2605,1280){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}guess:1}}}}}
+%  text 
+\put(3279,387){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}guess:1}}}}}
+%  text 
+\put(2624,2350){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}E1}}}}}
+%  text 
+\put(2097,1256){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}E2}}}}}
+%  text 
+\put(2780,364){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}E3}}}}}
+%  polyline 
+\path(1501,3448)(1580,3448)(1580,2873)
+\path(1550.000,2993.000)(1580.000,2873.000)(1610.000,2993.000)
+%  polyline 
+\path(1455,2686)(583,2686)(583,2331)
+\path(553.000,2451.000)(583.000,2331.000)(613.000,2451.000)
+%  polyline 
+\path(1763,2686)(2258,2686)(2258,3159)
+\path(2288.000,3039.000)(2258.000,3159.000)(2228.000,3039.000)
+%  polyline 
+\path(3872,2860)(3872,3159)
+\path(3902.000,3039.000)(3872.000,3159.000)(3842.000,3039.000)
+%  polyline 
+\path(4335,2538)(4561,2538)(4561,1738)
+\path(4531.000,1858.000)(4561.000,1738.000)(4591.000,1858.000)
+%  polyline 
+\path(4413,1611)(4413,1226)
+\path(4383.000,1346.000)(4413.000,1226.000)(4443.000,1346.000)
+%  polyline 
+\path(4702,1611)(4974,1611)(4974,2014)
+\path(5004.000,1894.000)(4974.000,2014.000)(4944.000,1894.000)
+%  polyline 
+\path(3575,620)(3575,2024)
+\path(3605.000,1904.000)(3575.000,2024.000)(3545.000,1904.000)
+%  polyline 
+\path(3170,1514)(3170,2024)
+\path(3200.000,1904.000)(3170.000,2024.000)(3140.000,1904.000)
+%  polyline 
+\path(2294,1301)(2515,1301)
+\path(2395.000,1271.000)(2515.000,1301.000)(2395.000,1331.000)
+%  polyline 
+\path(3019,411)(3185,411)
+\path(3065.000,381.000)(3185.000,411.000)(3065.000,441.000)
+%  polyline 
+\path(2808,2386)(3024,2386)
+\path(2904.000,2356.000)(3024.000,2386.000)(2904.000,2416.000)
+%  text 
+\put(3141,2689){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}x:2}}}}}
+%  text 
+\put(3141,2506){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}good-enough?:}}}}}
+%  text 
+\put(3141,2323){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}improve:...}}}}}
+%  text 
+\put(3141,2139){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}sqrt-iter:...}}}}}
+%  text 
+\put(3690,1090){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}параметры:}}}}}
+%  text 
+\put(3690,907){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}тело: }}}}}
+%  text 
+\put(0,2160){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}параметры:}}}}}
+%  text 
+\put(0,1977){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}тело:}}}}}
+%  text 
+\put(466,1794){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}(define improve ...)}}}}}
+%  text 
+\put(466,1610){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}(define sqrt-iter ...)}}}}}
+%  text 
+\put(2480,916){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}sqrt-iter}}}}}
+%  text 
+\put(3220,36){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}good-enough?}}}}}
+%  text 
+\put(466,1427){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}(sqrt-iter 1.0)}}}}}
+%  text 
+\put(2680,36){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}вызов }}}}}
+%  text 
+\put(1990,916){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}вызов }}}}}
+\put(1425,2686){\blacken\ellipse{60}{60}}
+\put(1425,2686){\ellipse{60}{60}}
+\put(1725,2686){\blacken\ellipse{60}{60}}
+\put(1725,2686){\ellipse{60}{60}}
+\put(1425,2686){\ellipse{280}{280}}
+\put(1725,2686){\ellipse{280}{280}}
+\put(4402,1611){\ellipse{280}{280}}
+\put(4402,1611){\blacken\ellipse{60}{60}}
+\put(4402,1611){\ellipse{60}{60}}
+\put(4702,1611){\ellipse{280}{280}}
+\put(4702,1611){\blacken\ellipse{60}{60}}
+\put(4702,1611){\ellipse{60}{60}}
+\put(466,1978){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}(define good-enough? ...)}}}}}
+\put(4150,907){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}($<$ (abs ...)}}}}}
+\put(4150,661){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}...)}}}}}
+\put(4690,1090){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}guess}}}}}
+\put(1010,2160){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}x}}}}}
+\end{picture}
+}

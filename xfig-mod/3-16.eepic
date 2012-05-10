@@ -1,0 +1,60 @@
+\setlength{\unitlength}{0.00083333in}
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+{\renewcommand{\dashlinestretch}{30}
+\begin{picture}(2187,1389)(0,-10)
+%  text 
+\put(0,1167){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}z1}}}}}
+%  text 
+\put(75,687){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}x}}}}}
+%  polyline 
+\path(638.000,1182.000)(758.000,1212.000)(638.000,1242.000)
+\path(758,1212)(203,1212)
+%  polyline 
+\path(638.000,657.000)(758.000,687.000)(638.000,717.000)
+\path(758,687)(203,687)
+%  text 
+\put(900,87){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}a}}}}}
+%  text 
+\put(1725,87){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}b}}}}}
+\put(900,1212){\blacken\ellipse{60}{60}}
+\put(900,1212){\ellipse{60}{60}}
+\put(1200,1212){\blacken\ellipse{60}{60}}
+\put(1200,1212){\ellipse{60}{60}}
+\put(1200,687){\blacken\ellipse{60}{60}}
+\put(1200,687){\ellipse{60}{60}}
+\put(900,687){\blacken\ellipse{60}{60}}
+\put(900,687){\ellipse{60}{60}}
+\put(1725,687){\blacken\ellipse{60}{60}}
+\put(1725,687){\ellipse{60}{60}}
+\path(750,1362)(1340,1362)(1340,1062)
+	(750,1062)(750,1362)
+\path(1050,1362)(1050,1062)
+\path(900,1212)(900,837)
+\path(870.000,957.000)(900.000,837.000)(930.000,957.000)
+\path(1200,1212)(1200,837)
+\path(1170.000,957.000)(1200.000,837.000)(1230.000,957.000)
+\path(750,837)(1340,837)(1340,537)
+	(750,537)(750,837)
+\path(1050,837)(1050,537)
+\path(1200,687)(1590,687)
+\path(1470.000,657.000)(1590.000,687.000)(1470.000,717.000)
+\path(1585,837)(2175,837)(2175,537)
+	(1585,537)(1585,837)
+\path(1875,537)(2175,837)
+\path(1875,837)(1875,537)
+\path(900,687)(900,312)
+\path(870.000,432.000)(900.000,312.000)(930.000,432.000)
+\path(750,312)(1050,312)(1050,12)
+	(750,12)(750,312)
+\path(1575,312)(1875,312)(1875,12)
+	(1575,12)(1575,312)
+\path(1725,687)(1725,312)
+\path(1695.000,432.000)(1725.000,312.000)(1755.000,432.000)
+\end{picture}
+}

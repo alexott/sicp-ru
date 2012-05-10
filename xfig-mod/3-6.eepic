@@ -1,0 +1,40 @@
+\setlength{\unitlength}{0.00083333in}
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+{\renewcommand{\dashlinestretch}{30}
+\begin{picture}(3139,1766)(0,-10)
+%  polyline 
+\whiten\path(855,1739)(3127,1739)(3127,1027)
+	(855,1027)(855,1739)
+\path(855,1739)(3127,1739)(3127,1027)
+	(855,1027)(855,1739)
+%  polyline 
+\path(855,1739)(3127,1739)(3127,1027)
+	(855,1027)(855,1739)
+%  text 
+\put(0,1441){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}глобальное}}}}}
+%  text 
+\put(0,1237){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}окружение}}}}}
+%  polyline 
+\path(498,1377)(837,1377)
+\path(717.000,1347.000)(837.000,1377.000)(717.000,1407.000)
+%  text 
+\put(879,1362){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}make-withdraw:}}}}}
+%  polyline 
+\path(2289,1381)(2379,1381)(2379,587)
+\path(2349.000,707.000)(2379.000,587.000)(2409.000,707.000)
+\put(2529,462){\ellipse{300}{300}}
+\put(2219,462){\ellipse{300}{300}}
+\put(2219,462){\blacken\ellipse{60}{60}}
+\put(2219,462){\ellipse{60}{60}}
+\put(2529,462){\blacken\ellipse{60}{60}}
+\put(2529,462){\ellipse{60}{60}}
+\path(2219,462)(2219,12)
+\path(2189.000,132.000)(2219.000,12.000)(2249.000,132.000)
+\end{picture}
+}

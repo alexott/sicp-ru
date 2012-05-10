@@ -1,0 +1,43 @@
+\setlength{\unitlength}{0.00083333in}
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+{\renewcommand{\dashlinestretch}{30}
+\begin{picture}(2783,1779)(0,-10)
+%  text 
+\put(186,1503){\makebox(0,0)[lb]{\smash{{{\SetFigFont{9}{10.8}{\familydefault}{\mddefault}{\updefault}глобальное}}}}}
+%  text 
+\put(186,1320){\makebox(0,0)[lb]{\smash{{{\SetFigFont{9}{10.8}{\familydefault}{\mddefault}{\updefault}окружение}}}}}
+%  text 
+\put(1076,1569){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}другие переменные}}}}}
+%  text 
+\put(1076,1275){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}square:}}}}}
+%  text 
+\put(0,786){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}(define (square x)}}}}}
+%  polyline 
+\path(1776,1306)(1861,1306)(1861,620)
+\path(1831.000,740.000)(1861.000,620.000)(1891.000,740.000)
+%  polyline 
+\path(684,1438)(1023,1438)
+\path(903.000,1408.000)(1023.000,1438.000)(903.000,1468.000)
+%  polyline 
+\path(2000,479)(2236,479)(2236,1079)
+\path(2266.000,959.000)(2236.000,1079.000)(2206.000,959.000)
+%  polyline 
+\path(1711,479)(1711,12)
+\path(1681.000,132.000)(1711.000,12.000)(1741.000,132.000)
+\put(2011,479){\ellipse{300}{300}}
+\put(2011,479){\blacken\ellipse{60}{60}}
+\put(2011,479){\ellipse{60}{60}}
+\put(1711,479){\ellipse{300}{300}}
+\put(1711,479){\blacken\ellipse{60}{60}}
+\put(1711,479){\ellipse{60}{60}}
+\path(1023,1679)(2586,1679)(2586,1079)
+	(1023,1079)(1023,1679)
+\put(136,579){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}(* x x))}}}}}
+\end{picture}
+}

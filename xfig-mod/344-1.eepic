@@ -1,0 +1,38 @@
+\setlength{\unitlength}{0.00083333in}
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+{\renewcommand{\dashlinestretch}{30}
+\begin{picture}(1835,720)(0,-10)
+%  polyline 
+\path(188,309)(512,309)(566,404)
+	(661,208)(762,405)(860,208)
+	(965,405)(1063,208)(1110,310)(1410,310)
+%  polyline 
+\path(1610,311)(1823,311)
+%  polyline 
+\path(1409,512)(1409,98)
+%  polyline 
+\path(1611,514)(1611,98)
+%  polyline 
+\path(12,311)(183,311)
+%  polyline 
+\path(86,350)(183,311)(86,273)
+%  text 
+\put(97,98){\makebox(0,0)[lb]{\smash{{{\SetFigFont{11}{13.2}{\rmdefault}{\mddefault}{\itdefault}i}}}}}
+%  text 
+\put(752,0){\makebox(0,0)[lb]{\smash{{{\SetFigFont{11}{13.2}{\rmdefault}{\mddefault}{\itdefault}R}}}}}
+%  text 
+\put(1647,2){\makebox(0,0)[lb]{\smash{{{\SetFigFont{11}{13.2}{\rmdefault}{\mddefault}{\itdefault}C}}}}}
+%  text 
+\put(881,630){\makebox(0,0)[lb]{\smash{{{\SetFigFont{11}{13.2}{\rmdefault}{\mddefault}{\itdefault}v}}}}}
+%  text 
+\put(89,612){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\itdefault}+}}}}}
+%  text 
+\put(1697,628){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\itdefault}-}}}}}
+\end{picture}
+}

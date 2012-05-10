@@ -1,0 +1,372 @@
+computational process	вычислительный процесс
+data			данные
+program			программа
+programming language	язык программирования
+bug			блоха
+glitch			дырка (не думаю, что годится в общем случае)
+debug			отлаживать
+recursion equations	уравнения рекурсии
+interpreter		интерпретатор
+procedure		процедура
+integer			целое число
+real number		вещественное число
+expression		выражение
+evaluate		вычислять
+combination		комбинация
+operator		оператор
+operand			операнд
+argument		аргумент
+prefix notation		префиксная запись
+nesting			вложение
+pretty-printing		красивая печать
+read-eval-print loop	цикл чтение-вычисление-печать (в тексте я иногда стараюсь заменять на "управляющий цикл")
+variable		переменная
+value			значение
+environment		окружение
+global environment	глобальное окружение
+recursion		рекурсия
+tree accumulation	аккумуляция дерева
+special form		особая форма
+syntactic sugar		синтаксический сахар
+procedure definition	определение процедуры
+compound procedure	составная процедура
+substitution model (for procedure application)	подстановочная модель (применения процедуры)
+substitution		подстановка
+normal-order evaluation	нормальный порядок вычисления
+applicative-order evaluation	аппликативный порядок вычисления
+stream processing	обработка потоков
+case analysis		разбор случаев
+clause			клауза (в тексте я кое-где старался избегать этого слова и говорить "ветвь" или "ветка")
+predicate		предикат
+recursive		рекурсивный
+consequent expression	выражение-следствие
+procedural abstraction	процедурная абстракция
+bound variable		связанная переменная
+bind			связывать
+free variable		свободная переменная
+scope			область действия
+capture			захватывать
+block structure		блочная структура
+lexical scoping		лексическая сфера действия
+local evolution (of a process)	локальная эволюция (процесса)
+global behavior (of a process)	глобальное поведение (процесса)
+deferred operations	отложенные операции
+recursive process	рекурсивный процесс
+linear recursive process	линейно рекурсивный процесс
+iterative process	итеративный процесс
+state variable		переменная состояния
+linear iterative process	линейно итеративный процесс
+stack			стек
+tail recursion		хвостовая рекурсия
+tree recursion		древовидная рекурсия
+golden ratio		золотое сечение
+tabulation		табуляризация
+memoization		мемоизация
+Pascal's triangle	треугольник Паскаля
+binomial coefficient	биномиальный коэффициент
+order of growth		порядок роста
+invariant		инвариант
+Euclid's Algorithm	алгоритм Евклида
+congruent modulo n	равны по модулю n
+remainder		остаток
+a modulo n		a по модулю n
+Carmichael numbers	числа Кармайкла
+probabilistic algorithm	вероятностный алгоритм
+RSA algorithm		алгоритм RSA
+Miller-Rabin test	тест Миллера-Рабина
+higher-order procedure	процедура высшего порядка
+summation of a series	суммирование последовательности
+sequence		последовательность
+accumulation		аккумуляция
+filter			фильтр
+half-interval method	метод половинного интервала
+fixed point		неподвижная точка
+average damping		торможение усреднением (наверняка есть стандартный термин; я его пока не нашел)
+continued fraction	цепная дробь
+k-term finite continued fraction	конечная цепная дробь из k термов
+Newton's method		метод Ньютона
+first class elements	полноправные элементы вычисления (или "первого класса", но этот вариант я стараюсь не употреблять)
+composition		композиция
+smoothing		сглаживание
+n-fold smoothed function	n-кратно сглаженная функция
+iterative improvement	последовательное улучшение
+compound data		составные данные
+compound data object	составной объект данных
+data abstraction	абстракция данных
+abstraction barrier	барьер абстракции
+closure			замыкание (как пишут сами A&S, в Лиспе термин closure обычно используется в другом значении; я бы и такие употребления тоже переводил как "замыкание")
+conventional interface	конвенциональный интерфейс
+symbolic expression	символьное выражение
+generic operations	родовые операции
+data-directed programming	программирование, управляемое данными
+additive		аддитивный
+data abstraction	абстракция данных
+selector		селектор
+constructor		конструктор
+wishful thinking	"мечтать не вредно" (не слишком точно)
+pair			пара
+list-structured data	данные со списковой структурой
+abstract model		абстрактная модель
+algebraic specification	алгебраическая спецификация
+message passing		передача сообщений
+Church numerals		числа Черча
+width (of an interval)	ширина интервала
+box-and-pointer notation	стрелочная нотация
+pointer			стрелка (на диаграмме.  Вообще-то, конечно, "указатель".)
+closure property	свойство замыкания
+hierarchical		иерархический
+list			список
+list structure		списковая структура
+empty list		пустой список
+dotted-tail notation	точечная запись
+tree			дерево
+enumerator		перечислитель
+map			отображение
+accumulator		аккумулятор
+Horner's rule		правило Хорнера
+comment			комментарий
+painter			рисовалка
+frame coordinate map	отображение координат рамки
+stratified design	уровневое проектирование
+robust			устойчивый
+quote			кавычка, закавычить
+B-tree			B-дерево
+red-black tree		красно-черное дерево
+key			ключ (при поиске)
+fixed-length code	код с фиксированной длиной
+variable-length code	код с переменной длиной
+separator code		код-разделитель
+prefix			префикс
+prefix code		префиксный код
+generic procedure	родовая процедура
+type tag		метка типа
+dispatching on type	диспетчирование по типу
+package			пакет
+coercion		приведение типов
+hierarchy of types	иерархия типов
+subtype			подтип
+supertype		надтип
+tower of types		башня типов
+poly			poly (решил не переводить -- термин привязан к конкретной задаче)
+dense polynomial	плотный многочлен
+sparse polynomial	разреженный многочлен
+rational function	рациональная функция
+Euclidean ring		Евклидово кольцо
+integerizing factor	множитель целости (должен существовать стандартный термин)
+pseudodivision		псевдоделение
+pseudoremainder		псевдоостаток
+modular			модульный
+object			объект
+stream			поток
+environment model (of evaluation)	модель (вычисления) с окружениями
+delayed evaluation	задержанное вычисление
+state variable		переменная состояния
+local state variable	внутренняя переменная состояния
+assignment operator	оператор присваивания
+encapsulation		инкапсуляция
+hiding principle	принцип сокрытия
+pseudo-random		псевдослучайный
+Monte Carlo simulation	моделирование методом Монте-Карло
+Monte Carlo integration	инткгрирование методом Монте-Карло
+functional programming	функциональное программирование
+referentially transparent	референциально прозрачный
+alias			псевдоним
+side-effect bug		ошибка побочного эффекта
+imperative programming	императивное программирование
+environment		окружение
+frame			кадр (в окружении)
+binding			связывание
+enclosing environment	объемлющее окружение
+unbound			несвязанный
+shadow (a binding)	скрыть (связывание)
+mutator			мутатор
+mutable data		изменяемые данные
+garbage collector	сборщик мусора
+shared			разделяемый
+queue			очередь
+rear			хвост
+front			голова
+FIFO			FIFO
+deque			дек
+backbone (of a table)	хребет (таблицы)
+headed list		список с заголовком
+event-driven simulation	имитация, управляемая событиями
+wire			провод
+digital signal		цифровой сигнал
+function box		функциональный эдемент
+inverter		инвертор
+and-gate		И-элемент
+logical and		логическое И
+or-gate			ИЛИ-элемент
+logical or		логическое ИЛИ
+half-adder		полусумматор
+full-adder		сумматор
+ripple-carry adder	каскадный сумматор
+agenda			план действий
+time segment		временной отрезок
+current time		текущее время
+primitive constraint	элементарное ограничение
+constraint network	сеть ограничений
+connector		соединитель
+time			время
+moment in time		момент времени
+concurrent		параллельный
+pipelining		конвейеризация
+cache coherence		согласованность кэша
+nondeterministic	недетерминированный
+serializer		сериализатор
+mutex			мьютекс (есть ли другие варианты?)
+acquire a mutex		захватить мьютекс
+release a mutex		освободить мьютекс
+semaphore		семафор
+cell			ячейка
+atomic			атомарный
+arbiter			арбитр
+deadlock		тупик
+deadlock recovery	выход из тупика
+barrier synchronisation	барьерная синхронизация
+stream			поток
+delayed evaluation	задержанное вычисление
+delayed object		задержанный объект
+call by name		вызов по имени
+call by need		вызов по необходимости
+call-by-name thunk	санк вызова по имени
+call-by-need thunk	санк вызова по необходимости
+sieve of Eratosthenes	решето Эратосфена
+Bertrand's hypothesis	гипотеза Бертрана
+power series		степенной ряд
+sequence accelerator	ускоритель последовательности
+tableau			табло
+Ramanujan numbers	числа Рамануджана
+integrator		интегратор
+summer			сумматор
+RC circuit		цепь RC
+zero crossing		переход нуля
+delayed argument	задержанный аргумент
+series RLC circuit	последовательная RLC-цепь
+type inferencing	вывод типов
+functional programming language	функциональный язык программирования
+merge			слияние
+metalinguistic abstraction	металингвистическая абстракция
+evaluator		вычислитель (но я стараюсь всюду, где можно, говорить "интерпретатор")
+interpreter		интерпретатор
+normal-order evaluation	нормальный порядок вычисления
+nondeterministic computing	недетерминистские вычисления
+logic programming	логическое программирование
+metacircular evaluator	метациклический интерпретатор
+syntax			синтаксис
+abstract syntax		абстрактный синтаксис
+derived expression	производное выражение
+macro			макрос
+deep binding		глубокое связывание
+lexical addressing	лексическая адресация
+driver loop		управляющий цикл
+prompt			подсказка
+output prompt		подсказка вывода
+universal machine	универсальная машина
+computability		вычислимость
+Turing machine		машина Тьюринга
+Church-Turing thesis	тезис Черча-Тьюринга
+recursion theory	теория рекурсии
+halting theorem		теорема об остановке
+noncomputable		невычислимый
+Y operator		Y-оператор
+execution procedure	имполнительная процедура
+lazy evaluation		ленивое вычисление
+non-strict		нестрогий
+strict			строгий
+thunk			санк (я встречал такую версию в какой-то старой переводной книге, но мне она не нравится.  Был бы рад другим предложениям.)
+forcing			размораживание (тут получается непоследовательная терминология)
+garbage collection	сборка мусора
+upward-compatible extension	совместимое расширение
+nondeterministic choice point	точка недетерминистского выбора
+systematic search	систематический поиск
+backtrack		вернуться
+depth-first search	поиск в глубину
+chronological backtracking	хронологический поиск с возвратом
+dependency-directed backtracking	поиск с возвратом, управляемый зависимостями
+truth maintenance	поддержание истины
+parsing			синтаксический анализ
+grammar			грамматика
+continuation procedure	процедура продолжения
+success continuation	продолжение успеха
+failure continuation	продолжение неудачи
+unification		унификация
+resolution principle	принцип резолюции
+query language		язык запросов
+query			запрос
+rule			правило
+assertion		утверждение
+pattern			образец
+pattern variable	переменная образца
+satisfy (a pattern)	удовлетворять (запросу)
+instantiate		конкретизировать
+logical deduction	логический вывод
+pattern matching	сопоставление с образцом
+pattern matcher		сопоставитель
+frame			кадр (при сопоставлении)
+indexing		индексирование
+control structure	структура управления
+closed world assumption	гипотеза о замкнутости мира
+reader macro character	макросимвол ввода
+register machine	регистровая машина
+instruction		команда
+register		регистр
+data path		пути данных
+controller		контроллер
+label			метка
+entry point		точка входа
+action			действие
+subroutine		подпрограмма
+stack			стек
+simulator		имитатор
+assembler		ассемблер
+register table		таблица регистров
+instruction execution procedure	исполнительная процедура команды
+instruction counting	подсчет команд
+instruction tracing	трассировка команд
+breakpoint		контрольная точка
+list-structured memory	память со списковой структурой
+automatic storage allocation	автоматическое распределение памяти
+address			адрес
+location		адрес
+address arithmetic	адресная арифметика
+vector			вектор
+base address		базовый адрес
+index			индекс
+typed pointer		типизированный указатель
+type field		поле типа/тег типа
+tagged architecture	теговая архитектура
+bignum			большое число
+obarray			обмассив
+interning		восприятие (символов)
+free list		список свободных ячеек
+garbage			мусор
+stop-and-copy garbage collection	сборка мусора через остановку с копированием
+mark-sweep		пометка с очисткой
+compacting garbage collector	сжимающий сборщик мусора
+broken heart		разбитое сердце
+forwarding address	перенаправляющий адрес
+explicit-control evaluator	вычислитель с явным управлением
+framed-stack discipline	дисциплина кадрированного стека (есть ли готовый термин?)
+evlis tail recursion	хвостовая рекурсия в списке аргументов
+native language		внутренний язык (машины)
+machine language	машинный язык
+source language		исходный язык
+source program		исходная программа
+compilation		компиляция
+object program		объектная программа
+code generator		генератор кода
+target			целевой регистр (при компиляции)
+linkage descriptor	тип связи
+instruction sequence	последовательность команд
+need			нуждаться
+statement		предложение (в последовательности команд при генерации кода)
+backquote		обратная кавычка
+quasiquote		квазикавычка
+open code		явный код
+lexical address		лексический адрес
+frame number		номер кадра
+displacement number	смещение
+compile-time environment	окружение времени компиляции
+

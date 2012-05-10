@@ -1,0 +1,38 @@
+\setlength{\unitlength}{0.00083333in}
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+{\renewcommand{\dashlinestretch}{30}
+\begin{picture}(4337,957)(0,-10)
+%  polyline 
+\path(2250,462)(2700,462)
+\path(2580.000,432.000)(2700.000,462.000)(2580.000,492.000)
+%  polyline 
+\path(29,712)(1424,712)
+\path(1304.000,682.000)(1424.000,712.000)(1304.000,742.000)
+%  polyline 
+\path(3825,462)(4325,462)
+\path(4205.000,432.000)(4325.000,462.000)(4205.000,492.000)
+%  polyline 
+\path(29,212)(1424,212)
+\path(1304.000,182.000)(1424.000,212.000)(1304.000,242.000)
+%  text 
+\put(0,292){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}запросы Павла}}}}}
+%  text 
+\put(1575,452){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}слияние}}}}}
+%  text 
+\put(2850,562){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}банковский}}}}}
+%  text 
+\put(2850,362){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}счет}}}}}
+%  text 
+\put(0,792){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}запросы Петра}}}}}
+\path(2700,912)(3825,912)(3825,12)
+	(2700,12)(2700,912)
+\path(1425,912)(2250,912)(2250,12)
+	(1425,12)(1425,912)
+\end{picture}
+}

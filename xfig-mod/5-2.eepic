@@ -1,0 +1,82 @@
+\setlength{\unitlength}{0.00083333in}
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+{\renewcommand{\dashlinestretch}{30}
+\begin{picture}(1811,3395)(0,-10)
+%  polyline 
+\whiten\path(366,399)(937,399)(937,12)
+	(366,12)(366,399)
+\path(366,399)(937,399)(937,12)
+	(366,12)(366,399)
+%  polyline 
+\path(366,399)(937,399)(937,12)
+	(366,12)(366,399)
+%  polyline 
+\whiten\path(373,1138)(944,1138)(944,751)
+	(373,751)(373,1138)
+\path(373,1138)(944,1138)(944,751)
+	(373,751)(373,1138)
+%  polyline 
+\path(373,1138)(944,1138)(944,751)
+	(373,751)(373,1138)
+%  polyline 
+\whiten\path(368,1877)(940,1877)(940,1491)
+	(368,1491)(368,1877)
+\path(368,1877)(940,1877)(940,1491)
+	(368,1491)(368,1877)
+%  polyline 
+\path(368,1877)(940,1877)(940,1491)
+	(368,1491)(368,1877)
+%  polyline 
+\whiten\path(360,2560)(683,2883)(1001,2565)
+	(678,2242)(360,2560)
+\path(360,2560)(683,2883)(1001,2565)
+	(678,2242)(360,2560)
+%  polyline 
+\path(360,2560)(683,2883)(1001,2565)
+	(678,2242)(360,2560)
+%  polyline 
+\path(674,2230)(674,1884)
+%  polyline 
+\path(713,1981)(674,1884)(636,1981)
+%  polyline 
+\path(666,1489)(666,1144)
+%  polyline 
+\path(704,1241)(666,1144)(628,1241)
+%  polyline 
+\path(674,757)(674,408)
+%  polyline 
+\path(713,505)(674,408)(636,505)
+%  polyline 
+\path(370,217)(12,217)(12,2560)(370,2560)
+\path(250.000,2530.000)(370.000,2560.000)(250.000,2590.000)
+%  polyline 
+\path(686,3166)(686,2884)
+%  polyline 
+\path(725,2981)(686,2884)(648,2981)
+%  polyline 
+\path(1001,2560)(1462,2560)
+\path(1342.000,2530.000)(1462.000,2560.000)(1342.000,2590.000)
+%  text 
+\put(493,3245){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{10.8}{\ttdefault}{\mddefault}{\updefault}start}}}}}
+%  text 
+\put(1535,2538){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{10.8}{\ttdefault}{\mddefault}{\updefault}done}}}}}
+%  text 
+\put(1037,2657){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{10.8}{\familydefault}{\mddefault}{\updefault}да}}}}}
+%  text 
+\put(743,2080){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{10.8}{\familydefault}{\mddefault}{\updefault}нет}}}}}
+%  text 
+\put(628,2539){\makebox(0,0)[lb]{\smash{{{\SetFigFont{11}{13.2}{\ttdefault}{\mddefault}{\updefault}=}}}}}
+%  text 
+\put(436,1657){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{10.8}{\ttdefault}{\mddefault}{\updefault}t$<$-r}}}}}
+%  text 
+\put(436,899){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{10.8}{\ttdefault}{\mddefault}{\updefault}a$<$-b}}}}}
+%  text 
+\put(436,154){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{10.8}{\ttdefault}{\mddefault}{\updefault}b$<$-t}}}}}
+\end{picture}
+}

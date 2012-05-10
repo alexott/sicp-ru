@@ -1,0 +1,67 @@
+\setlength{\unitlength}{0.00083333in}
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+{\renewcommand{\dashlinestretch}{30}
+\begin{picture}(4581,2199)(0,-10)
+%  polyline 
+\whiten\path(876,2172)(4569,2172)(4569,1460)
+	(876,1460)(876,2172)
+\path(876,2172)(4569,2172)(4569,1460)
+	(876,1460)(876,2172)
+%  polyline 
+\path(876,2172)(4569,2172)(4569,1460)
+	(876,1460)(876,2172)
+%  polyline 
+\whiten\path(2066,1219)(3163,1219)(3163,811)
+	(2066,811)(2066,1219)
+\path(2066,1219)(3163,1219)(3163,811)
+	(2066,811)(2066,1219)
+%  polyline 
+\path(2066,1219)(3163,1219)(3163,811)
+	(2066,811)(2066,1219)
+%  polyline 
+\path(519,1809)(858,1809)
+%  polyline 
+\path(761,1848)(858,1809)(761,1771)
+%  text 
+\put(954,1941){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{10.8}{\ttdefault}{\mddefault}{\updefault}make-withdraw:}}}}}
+%  text 
+\put(2310,1941){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{10.8}{\ttdefault}{\mddefault}{\updefault}...}}}}}
+%  text 
+\put(975,1629){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{10.8}{\ttdefault}{\mddefault}{\updefault}W1:}}}}}
+%  text 
+\put(2150,987){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{10.8}{\ttdefault}{\mddefault}{\updefault}balance:50}}}}}
+%  polyline 
+\path(1222,1663)(1340,1663)(1340,575)
+\path(1310.000,695.000)(1340.000,575.000)(1370.000,695.000)
+%  polyline 
+\path(2589,1214)(2589,1461)
+%  polyline 
+\path(2551,1364)(2589,1461)(2628,1364)
+%  polyline 
+\path(1485,378)(2587,378)(2587,794)
+%  polyline 
+\path(2548,697)(2587,794)(2625,697)
+%  text 
+\put(1669,975){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{10.8}{\ttdefault}{\mddefault}{\updefault}E1}}}}}
+%  polyline 
+\path(1858,1008)(2055,1008)
+%  polyline 
+\path(1958,1046)(2055,1008)(1958,969)
+\put(1200,387){\ellipse{280}{280}}
+\put(1200,387){\blacken\ellipse{60}{60}}
+\put(1200,387){\ellipse{60}{60}}
+\put(1500,387){\ellipse{280}{280}}
+\put(1500,387){\blacken\ellipse{60}{60}}
+\put(1500,387){\ellipse{60}{60}}
+\path(1200,387)(1200,12)
+\path(1170.000,132.000)(1200.000,12.000)(1230.000,132.000)
+\put(0,1887){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{10.8}{\rmdefault}{\mddefault}{\updefault}глобальное}}}}}
+\put(0,1662){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{10.8}{\rmdefault}{\mddefault}{\updefault}окружение}}}}}
+\end{picture}
+}

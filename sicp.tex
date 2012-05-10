@@ -1,0 +1,220 @@
+\documentclass[twoside]{book}%Опция draft помечает overfull'ы. Выкинем.
+\usepackage[koi8-r]{inputenc}
+\usepackage[english,polutonikogreek,russian]{babel}	
+\usepackage{a4wide}
+\usepackage{russcorr}
+\usepackage{pictex}
+\usepackage{fancyvrb}
+\usepackage{epigraph}
+\usepackage{multind}
+\usepackage{graphics}
+\usepackage{synttree}
+\usepackage{pscyr}
+\usepackage{indentfirst}
+%\usepackage[mirror]{crop}
+%\usepackage{epic}
+%\usepackage{eepic}
+% Нумеровать подподсекции
+\setcounter{secnumdepth}{3}
+
+\makeatletter
+
+\makeatother
+
+% Отменить линии под эпиграфами
+\setlength{\epigraphrule}{0pt}
+%\renewcommand{\epigraphsize}{\small}
+% разрешить команды и математику в листингах
+\fvset{commandchars=\\\{\},codes={\catcode`$=3\catcode`^=7\catcode`_=8}}
+
+
+% разрешить листинги в сносках
+\VerbatimFootnotes
+
+
+\makeindex{ru}
+\makeindex{en}
+
+\makeatletter
+
+\usepackage{sicp}
+
+\pagestyle{myheadings}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%% END OF THE PREAMBLE %%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%% THE BOOK BEGINS %%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+%\pagestyle{empty}
+\renewcommand{\@makechapterhead}[1]{
+  \vspace*{10pt}%
+  {\parindent=0pt
+   \hrule
+   \par\medskip
+   \centering \huge\sc Глава{}
+   \thechapter
+   \par
+   \vspace{10pt}
+   \huge {\bf\sc{#1}}
+   \par\medskip
+   \hrule
+   \nopagebreak
+   \vspace{10pt}
+}}
+
+\hfuzz=0,3pt
+\begin{titlepage}
+
+\begin{center}
+{\sf\huge
+Harold Abelson\\[20pt]
+
+{\large and} Gerald Jay Sussman\\[20pt]
+
+{\large with} Julie Sussman \\[150pt]
+
+Structure and Interpretation \\[6pt]
+of Computer Programs}
+
+\vfill
+
+{\sf\normalsize 
+The MIT Press\\
+Cambridge, Massatchusetts \hfill London, England
+
+The McGraw-Hill Companies, Inc.\\
+New York \hfill St.Louis \hfill San Francisco \hfill Montreal \hfill Toronto 
+}
+
+\clearpage
+\thispagestyle{empty}
+{\sf\huge
+Харольд Абельсон \\[20pt]
+
+Джеральд Джей Сассман\\[20pt]
+
+{\large при участии} Джули Сассман\\[150pt]
+
+Структура и интерпретация \\[6pt]
+
+компьютерных программ
+}
+%%
+%\vfill
+
+{\sf
+Добросвет, 2006
+}
+
+\end{center}
+\clearpage
+\mbox{}
+\clearpage
+\thispagestyle{empty}
+\begin{quote}
+%%%Кончились титульные листы
+Эта книга посвящается, с уважением и любовью, духу,
+который живет внутри компьютера.\\[10pt] %}{}\epigraph{
+
+``Мне кажется, чрезвычайно важно, чтобы мы, занимаясь
+информатикой, получали радость от общения с компьютером.  С самого
+начала это было громадным удовольствием. Конечно,
+время от времени встревали заказчики, и через какое-то время мы стали
+серьезно относиться к их жалобам. Нам стало казаться, что мы
+вправду отвечаем за то, чтобы эти машины использовались успешно и безошибочно.
+Я не думаю, что это так. Я считаю, что мы
+отвечаем за то, чтобы их тренировать, указывать им
+новые направления и поддерживать уют в доме. Я надеюсь, что
+информатика никогда не перестанет быть радостью. Я надеюсь, что
+мы не превратимся в миссионеров. Не надо чувствовать себя
+продавцом Библий.  Таких в мире и так достаточно. То, что
+Вы знаете о программировании, могут выучить и другие. Не думайте, что 
+в ваших руках ключ к успешной работе с компьютерами. Что у Вас, как я
+думаю и надеюсь, есть~--- это разум: способность увидеть в машине
+больше, чем Вы видели, когда Вас впервые к ней подвели, увидеть, что
+Вы способны сделать ее б\'oльшим.''%{
+
+Алан Дж. Перлис (1 апреля 1922 -- 7 февраля 1990)
+\end{quote}
+\end{titlepage}
+\pagestyle{headings}
+%\setcounter{page}{5}
+\tableofcontents
+\thispagestyle{empty}
+%\sloppy
+
+\newpage
+\pagestyle{headings}
+\input preface-1.tex
+%\clearpage
+
+\input preface-2.tex
+%\clearpage
+
+\input preface-3.tex
+%\clearpage
+
+\input preface-4.tex
+\clearpage
+%\pagenumbering{arabic}
+
+\pagestyle{headings}
+%% Закрываем группу, в которой действует нестандартное 
+%% оформление колонтитулов, потому что в главах все и так нормально делается
+\input chapter-1.tex
+
+\input chapter-2.tex
+
+\input chapter-3.tex
+
+\input chapter-4.tex
+
+\input chapter-5.tex
+
+
+\clearpage
+\pagestyle{myheadings}
+%%Опять делаем нестандартные колонтитулы для литературы и индекса
+\input references.tex
+\clearpage
+
+\chapter*{Предметный указатель}
+\markboth{Предметный указатель}{Предметный указатель}
+\addcontentsline{toc}{section}{Предметный указатель}
+\epigraph{
+Все неточности в этом указателе объясняются тем, что его готовили при
+помощи вычислительной машины.
+}{
+Дональд~Э. Кнут, {\it Основные алгоритмы} ({\it Исскусство
+  программирования для ЭВМ}, том 1)
+}
+\index{ru}{Кнут, Дональд~Э.||Donald~E. Knuth||n|}
+
+\noindent
+Номера страниц для определений процедур даны курсивом.\\
+Буква {\it п} после номера страницы отсылает к примечанию.\\
+Буквы {\it нс} после названия элементарной функции либо особой формы
+означают, что она не входит в стандарт Scheme IEEE.\\
+\begin{raggedright}
+\begin{multicols}{2}
+\begin{theindex}
+\sloppy
+\input ru-idx.tex
+\end{theindex}
+\end{multicols}
+\end{raggedright}
+\end{document}
+
+Alyssa P. Hacker - Лиз П. Хакер
+Eva Lu Ator - Инта Претатор
+Ben Bittidle - Бен Битобор
+Louis Reasoner - Нед О'Тумкал
+Lem E. Tweakit - Дайко Поправич
+Cy D. Fect - Сай Д. Фект
+Con Fiden - 
+Aull DeWitt 
+Oliver Warbuck
+

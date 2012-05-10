@@ -1,0 +1,37 @@
+\setlength{\unitlength}{0.00083333in}
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+{\renewcommand{\dashlinestretch}{30}
+\begin{picture}(1959,909)(0,-10)
+%  text 
+\put(712,82){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}1}}}}}
+%  text 
+\put(1762,682){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}2}}}}}
+%  polyline 
+\path(1032,747)(1676,747)
+\path(1556.000,717.000)(1676.000,747.000)(1556.000,777.000)
+%  polyline 
+\path(12,747)(627,747)
+\path(507.000,717.000)(627.000,747.000)(507.000,777.000)
+%  polyline 
+\path(767,747)(767,282)
+\path(737.000,402.000)(767.000,282.000)(797.000,402.000)
+\put(1032,747){\blacken\ellipse{58}{60}}
+\put(1032,747){\ellipse{58}{60}}
+\put(762,747){\blacken\ellipse{60}{60}}
+\put(762,747){\ellipse{60}{60}}
+\path(1163,882)(900,882)(900,612)
+	(1163,612)(1163,882)
+\path(627,282)(897,282)(897,12)
+	(627,12)(627,282)
+\path(627,882)(897,882)(897,612)
+	(627,612)(627,882)
+\path(1677,882)(1947,882)(1947,612)
+	(1677,612)(1677,882)
+\end{picture}
+}

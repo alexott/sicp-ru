@@ -1,0 +1,47 @@
+\setlength{\unitlength}{0.00083333in}
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+{\renewcommand{\dashlinestretch}{30}
+\begin{picture}(4757,1557)(0,-10)
+%  polyline 
+\whiten\path(3456,1106)(3456,402)(4260,768)(3456,1106)
+\path(3456,1106)(3456,402)(4260,768)(3456,1106)
+%  polyline 
+\path(3456,1106)(3456,402)(4260,768)(3456,1106)
+%  polyline 
+\path(2181,957)(2181,253)(2985,619)(2181,957)
+%  text 
+\put(3536,721){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}cons}}}}}
+%  text 
+\put(2250,572){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}add}}}}}
+%  text 
+\put(750,762){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}scale: dt}}}}}
+%  text 
+\put(2400,1437){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}initial-value}}}}}
+%  text 
+\put(0,837){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}input}}}}}
+%  polyline 
+\dashline{60.000}(2925,1362)(2925,1062)(3456,1062)
+\path(3336.000,1032.000)(3456.000,1062.000)(3336.000,1092.000)
+%  polyline 
+\path(4260,768)(4745,768)
+\path(4625.000,738.000)(4745.000,768.000)(4625.000,798.000)
+\path(4425,768)(4425,12)(1800,12)
+	(1800,387)(2175,387)
+\path(2055.000,357.000)(2175.000,387.000)(2055.000,417.000)
+\path(675,1062)(1650,1062)(1650,537)
+	(675,537)(675,1062)
+\path(1650,762)(2175,762)
+\path(2055.000,732.000)(2175.000,762.000)(2055.000,792.000)
+\path(150,762)(675,762)
+\path(555.000,732.000)(675.000,762.000)(555.000,792.000)
+\path(2985,619)(3450,619)
+\path(3330.000,589.000)(3450.000,619.000)(3330.000,649.000)
+\put(4425,768){\ellipse{40}{40}}
+\end{picture}
+}

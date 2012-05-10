@@ -1,0 +1,85 @@
+\setlength{\unitlength}{0.00083333in}
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+{\renewcommand{\dashlinestretch}{30}
+\begin{picture}(4812,2199)(0,-10)
+%  polyline 
+\whiten\path(876,2172)(4569,2172)(876,2172)
+\path(876,2172)(4569,2172)(876,2172)
+%  polyline 
+\path(876,2172)(4590,2172)(4590,1387)
+	(876,1387)(876,2172)
+%  polyline 
+\drawline(1841,1219)(1841,1219)
+%  polyline 
+\path(1841,1144)(3000,1144)(3000,736)
+	(1841,736)(1841,1144)
+%  polyline 
+\path(3566,1144)(4800,1144)(4800,736)
+	(3566,736)(3566,1144)
+%  polyline 
+\path(519,1809)(858,1809)
+\path(738.000,1779.000)(858.000,1809.000)(738.000,1839.000)
+%  text 
+\put(954,1997){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}make-withdraw:}}}}}
+%  text 
+\put(2165,1997){\makebox(0,0)[lb]{\smash{{{\SetFigFont{9}{10.8}{\ttdefault}{\mddefault}{\updefault}...}}}}}
+%  text 
+\put(954,1747){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}W2:}}}}}
+%  text 
+\put(954,1497){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}W1:}}}}}
+%  text 
+\put(3600,912){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}balance: 100}}}}}
+%  text 
+\put(1875,912){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}balance: 50}}}}}
+%  polyline 
+\path(1260,1757)(1340,1757)(1340,575)
+\path(1310.000,695.000)(1340.000,575.000)(1370.000,695.000)
+%  polyline 
+\path(4050,1139)(4050,1386)
+\path(4080.000,1266.000)(4050.000,1386.000)(4020.000,1266.000)
+%  polyline 
+\path(2587,1139)(2587,1386)
+\path(2617.000,1266.000)(2587.000,1386.000)(2557.000,1266.000)
+%  polyline 
+\path(1485,378)(2587,378)(2587,736)
+\path(2617.000,616.000)(2587.000,736.000)(2557.000,616.000)
+%  text 
+\put(3169,900){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}E2}}}}}
+%  text 
+\put(1444,900){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}E1}}}}}
+%  polyline 
+\path(3358,933)(3555,933)
+\path(3435.000,903.000)(3555.000,933.000)(3435.000,963.000)
+%  polyline 
+\path(1633,933)(1830,933)
+\path(1710.000,903.000)(1830.000,933.000)(1710.000,963.000)
+\put(3000,387){\ellipse{280}{280}}
+\put(3000,387){\blacken\ellipse{60}{60}}
+\put(3000,387){\ellipse{60}{60}}
+\put(3300,387){\ellipse{280}{280}}
+\put(3300,387){\blacken\ellipse{60}{60}}
+\put(3300,387){\ellipse{60}{60}}
+\put(1200,387){\ellipse{280}{280}}
+\put(1200,387){\blacken\ellipse{60}{60}}
+\put(1200,387){\ellipse{60}{60}}
+\put(1500,387){\ellipse{280}{280}}
+\put(1500,387){\blacken\ellipse{60}{60}}
+\put(1500,387){\ellipse{60}{60}}
+\path(1200,387)(1200,12)
+\path(1170.000,132.000)(1200.000,12.000)(1230.000,132.000)
+\path(3120.000,657.000)(3150.000,537.000)(3180.000,657.000)
+\path(3150,537)(3150,1512)(1260,1512)
+\path(3000,387)(3000,197)(1300,197)(1300,12)
+\path(1270.000,132.000)(1300.000,12.000)(1330.000,132.000)
+\path(3300,387)(4050,387)(4050,736)
+\path(4080.000,616.000)(4050.000,736.000)(4020.000,616.000)
+\put(0,1662){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}окружение}}}}}
+\put(0,1887){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}глобальное}}}}}
+\end{picture}
+}

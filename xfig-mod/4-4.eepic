@@ -1,0 +1,35 @@
+\setlength{\unitlength}{0.00083333in}
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+{\renewcommand{\dashlinestretch}{30}
+\begin{picture}(5024,1665)(0,-10)
+%  text 
+\put(1437,975){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}(job ?x ?y)}}}}}
+%  text 
+\put(1812,1275){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}запрос}}}}}
+%  text 
+\put(1737,0){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}из базы данных}}}}}
+%  polyline 
+\path(12,1242)(1412,1242)
+\path(1292.000,1212.000)(1412.000,1242.000)(1292.000,1272.000)
+%  polyline 
+\path(2562,1242)(5012,1242)
+\path(4892.000,1212.000)(5012.000,1242.000)(4892.000,1272.000)
+%  polyline 
+\path(2037,300)(2037,867)
+\path(2067.000,747.000)(2037.000,867.000)(2007.000,747.000)
+%  text 
+\put(1737,150){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}поток утверждений}}}}}
+\path(1412,1500)(2562,1500)(2562,867)
+	(1412,867)(1412,1500)
+\put(2612,1350){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}отфильтрованный и расширенный}}}}}
+\put(87,1350){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}кадров}}}}}
+\put(87,1500){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}входной поток}}}}}
+\put(2612,1500){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}выходной поток кадров, }}}}}
+\end{picture}
+}

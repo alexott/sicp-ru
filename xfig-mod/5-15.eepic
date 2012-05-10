@@ -1,0 +1,94 @@
+\setlength{\unitlength}{0.00083333in}
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+{\renewcommand{\dashlinestretch}{30}
+\begin{picture}(4933,6195)(0,-10)
+%  polyline 
+\path(945,1875)(4200,1875)(4200,2610)
+	(945,2610)(945,1875)
+%  polyline 
+\drawline(4200,1875)(4200,1875)
+%  polyline 
+\path(945,525)(4200,525)(4200,1260)
+	(945,1260)(945,525)
+%  polyline 
+\drawline(4200,525)(4200,525)
+%  polyline 
+\path(2520,1260)(2520,525)
+%  polyline 
+\path(945,5010)(4200,5010)(4200,5745)
+	(945,5745)(945,5010)
+%  polyline 
+\drawline(4200,5010)(4200,5010)
+%  polyline 
+\path(4125.000,4875.000)(4095.000,4995.000)(4065.000,4875.000)
+\path(4095,4995)(4095,4575)
+%  polyline 
+\path(2640.000,405.000)(2610.000,525.000)(2580.000,405.000)
+\path(2610,525)(2610,105)
+%  text 
+\put(3945,4440){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}свободная}}}}}
+%  text 
+\put(0,5145){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\bfdefault}{\updefault}the-cdrs}}}}}
+%  text 
+\put(0,5505){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\bfdefault}{\updefault}the-cars}}}}}
+%  text 
+\put(0,3975){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\bfdefault}{\updefault}new-cars}}}}}
+%  text 
+\put(0,3570){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\bfdefault}{\updefault}new-cdrs}}}}}
+%  text 
+\put(0,2340){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\bfdefault}{\updefault}new-cars}}}}}
+%  text 
+\put(0,1950){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\bfdefault}{\updefault}new-cdrs}}}}}
+%  text 
+\put(0,975){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\bfdefault}{\updefault}the-cars}}}}}
+%  text 
+\put(0,645){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\bfdefault}{\updefault}the-cdrs}}}}}
+%  text 
+\put(2445,0){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}свободная}}}}}
+%  polyline 
+\path(945,3480)(4200,3480)(4200,4215)
+	(945,4215)(945,3480)
+%  polyline 
+\drawline(4200,3480)(4200,3480)
+%  text 
+\put(4380,5490){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}рабочая}}}}}
+%  text 
+\put(2694,871){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}свободная область}}}}}
+%  text 
+\put(4380,5295){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}память}}}}}
+%  text 
+\put(4380,3975){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}свободная}}}}}
+%  text 
+\put(4380,3775){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}память}}}}}
+%  text 
+\put(1275,6030){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}Непосредственно перед сборкой мусора}}}}}
+%  text 
+\put(1294,5371){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}смесь полезных данных и мусора}}}}}
+%  text 
+\put(1694,2205){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}освобожденная память}}}}}
+%  text 
+\put(1719,2821){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}сразу после сборки мусора}}}}}
+%  text 
+\put(1994,3796){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}свободная память}}}}}
+%  text 
+\put(1094,871){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}полезные данные}}}}}
+%  text 
+\put(4380,990){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}новая}}}}}
+%  text 
+\put(4380,790){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}рабочая}}}}}
+%  text 
+\put(4380,590){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}память}}}}}
+%  text 
+\put(4380,2394){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}новая}}}}}
+%  text 
+\put(4380,2181){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}свободная}}}}}
+%  text 
+\put(4380,1981){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}память}}}}}
+\end{picture}
+}

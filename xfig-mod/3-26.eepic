@@ -1,0 +1,86 @@
+\setlength{\unitlength}{0.00083333in}
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+{\renewcommand{\dashlinestretch}{30}
+\begin{picture}(3381,1254)(0,-10)
+%  text 
+\put(3180,462){\makebox(0,0)[lb]{\smash{{{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}out}}}}}
+%  text 
+\put(1372,816){\makebox(0,0)[lb]{\smash{{{\SetFigFont{9}{10.8}{\rmdefault}{\mddefault}{\updefault}полу-}}}}}
+%  text 
+\put(1372,616){\makebox(0,0)[lb]{\smash{{{\SetFigFont{9}{10.8}{\rmdefault}{\mddefault}{\updefault}сумматор}}}}}
+%  text 
+\put(562,491){\makebox(0,0)[lb]{\smash{{{\SetFigFont{9}{10.8}{\rmdefault}{\mddefault}{\updefault}полу-}}}}}
+%  text 
+\put(562,291){\makebox(0,0)[lb]{\smash{{{\SetFigFont{9}{10.8}{\rmdefault}{\mddefault}{\updefault}сумматор}}}}}
+%  polyline 
+\path(495,12)(2745,12)(2745,1227)
+	(495,1227)(495,12)
+%  polyline 
+\drawline(2745,12)(2745,12)
+%  text 
+\put(3075,492){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\bfdefault}{\updefault}C}}}}}
+%  polyline 
+\path(1267,582)(1347,582)
+%  text 
+\put(90,222){\makebox(0,0)[lb]{\smash{{{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}in}}}}}
+%  polyline 
+\path(2182,582)(2092,582)
+%  polyline 
+\path(1267,447)(2192,447)
+%  polyline 
+\path(1347,927)(285,927)
+%  polyline 
+\path(532,567)(270,567)
+%  polyline 
+\path(2082,912)(3060,912)
+%  polyline 
+\path(532,327)(255,327)
+%  text 
+\put(3105,867){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\bfdefault}{\updefault}SUM}}}}}
+%  text 
+\put(2262,492){\makebox(0,0)[lb]{\smash{{{\SetFigFont{9}{10.8}{\rmdefault}{\mddefault}{\updefault}или}}}}}
+%  text 
+\put(150,882){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\bfdefault}{\updefault}A}}}}}
+%  text 
+\put(120,537){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\bfdefault}{\updefault}B}}}}}
+%  text 
+\put(0,267){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\bfdefault}{\updefault}C}}}}}
+\path(2167,666)(2167,665)(2169,661)
+	(2174,652)(2180,637)(2188,619)
+	(2195,601)(2202,583)(2208,567)
+	(2212,552)(2215,539)(2217,528)
+	(2217,516)(2217,504)(2215,493)
+	(2212,480)(2208,465)(2202,449)
+	(2195,431)(2188,413)(2180,395)
+	(2174,380)(2169,371)(2167,367)(2167,366)
+\path(2167,366)(2170,366)(2175,365)
+	(2184,364)(2197,362)(2212,361)
+	(2230,359)(2250,358)(2270,357)
+	(2291,356)(2314,357)(2339,358)
+	(2365,361)(2392,366)(2422,373)
+	(2447,381)(2467,389)(2485,398)
+	(2499,407)(2512,415)(2522,423)
+	(2531,430)(2537,436)(2540,439)(2542,441)
+\path(2167,666)(2170,666)(2175,667)
+	(2184,668)(2197,670)(2212,671)
+	(2230,673)(2250,674)(2270,675)
+	(2291,676)(2314,675)(2339,674)
+	(2365,671)(2392,666)(2422,659)
+	(2447,651)(2467,643)(2485,634)
+	(2499,625)(2512,617)(2522,609)
+	(2531,602)(2537,596)(2540,593)(2542,591)
+\path(2542,591)(2617,516)
+\path(2542,441)(2617,516)
+\path(532,666)(1267,666)(1267,216)
+	(532,216)(532,666)
+\path(2617,516)(3067,516)
+\path(1347,966)(2082,966)(2082,516)
+	(1347,516)(1347,966)
+\end{picture}
+}

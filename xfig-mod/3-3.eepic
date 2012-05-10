@@ -1,0 +1,58 @@
+\setlength{\unitlength}{0.00083333in}
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+{\renewcommand{\dashlinestretch}{30}
+\begin{picture}(3972,1801)(0,-10)
+%  polyline 
+\whiten\path(852,1775)(3965,1775)(3965,1063)
+	(852,1063)(852,1775)
+\path(852,1775)(3965,1775)(3965,1063)
+	(852,1063)(852,1775)
+%  polyline 
+\path(834,1774)(3960,1774)(3960,1062)
+	(834,1062)(834,1774)
+%  text 
+\put(860,1287){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}square:}}}}}
+%  polyline 
+\path(1550,1312)(1610,1312)(1610,562)
+\path(1580.000,682.000)(1610.000,562.000)(1640.000,682.000)
+%  polyline 
+\path(496,1413)(834,1413)
+\path(714.000,1383.000)(834.000,1413.000)(714.000,1443.000)
+%  polyline 
+\path(1750,387)(1985,387)(1985,1054)
+\path(2015.000,934.000)(1985.000,1054.000)(1955.000,934.000)
+%  text 
+\put(2566,205){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}E1}}}}}
+%  text 
+\put(3179,195){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}x:5}}}}}
+%  polyline 
+\path(2789,243)(3083,243)
+\path(2963.000,213.000)(3083.000,243.000)(2963.000,273.000)
+%  polyline 
+\path(3448,456)(3448,1063)
+\path(3478.000,943.000)(3448.000,1063.000)(3418.000,943.000)
+%  text 
+\put(0,1473){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}глобальное}}}}}
+%  text 
+\put(0,1289){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}окружение}}}}}
+%  text 
+\put(0,734){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}(square 5)}}}}}
+\put(1770,387){\blacken\ellipse{60}{60}}
+\put(1770,387){\ellipse{60}{60}}
+\put(1770,387){\ellipse{300}{300}}
+\put(1460,387){\ellipse{300}{300}}
+\put(1460,387){\blacken\ellipse{60}{60}}
+\put(1460,387){\ellipse{60}{60}}
+\path(3710,462)(3083,462)(3083,12)
+	(3710,12)(3710,462)
+\path(1460,387)(1460,12)
+\path(1430.000,132.000)(1460.000,12.000)(1490.000,132.000)
+\put(860,1587){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}другие переменные}}}}}
+\end{picture}
+}

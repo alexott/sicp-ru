@@ -1,0 +1,78 @@
+\setlength{\unitlength}{0.00083333in}
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+{\renewcommand{\dashlinestretch}{30}
+\begin{picture}(5374,1614)(0,-10)
+%  polyline 
+\path(3762,312)(4137,312)
+\path(4017.000,282.000)(4137.000,312.000)(4017.000,342.000)
+%  polyline 
+\path(1212,312)(1587,312)
+\path(1467.000,282.000)(1587.000,312.000)(1467.000,342.000)
+%  polyline 
+\path(1212,1296)(1587,1296)
+\path(1467.000,1266.000)(1587.000,1296.000)(1467.000,1326.000)
+%  polyline 
+\path(3762,1287)(4137,1287)
+\path(4017.000,1257.000)(4137.000,1287.000)(4017.000,1317.000)
+%  polyline 
+\path(2412,1287)(2937,1287)
+\path(2817.000,1257.000)(2937.000,1287.000)(2817.000,1317.000)
+%  polyline 
+\path(2412,312)(2937,312)
+\path(2817.000,282.000)(2937.000,312.000)(2817.000,342.000)
+%  text 
+\put(84,1387){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}enumerate:}}}}}
+%  text 
+\put(84,1170){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}tree leaves}}}}}
+%  text 
+\put(1673,1370){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}filter:}}}}}
+%  text 
+\put(1673,1154){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}odd?}}}}}
+%  text 
+\put(3035,1370){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}map:}}}}}
+%  text 
+\put(3035,1154){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}square}}}}}
+%  text 
+\put(4237,1370){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}accumulate:}}}}}
+%  text 
+\put(4237,1154){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault} +, 0}}}}}
+%  text 
+\put(84,373){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}enumerate:}}}}}
+%  text 
+\put(84,157){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}integers}}}}}
+%  text 
+\put(1673,373){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}map:}}}}}
+%  text 
+\put(1673,157){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}fib}}}}}
+%  text 
+\put(3035,373){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}filter:}}}}}
+%  text 
+\put(3035,157){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}even?}}}}}
+%  text 
+\put(4237,373){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}accumulate:}}}}}
+%  text 
+\put(4237,157){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}cons, ()}}}}}
+\path(12,1587)(1212,1587)(1212,987)
+	(12,987)(12,1587)
+\path(12,612)(1212,612)(1212,12)
+	(12,12)(12,612)
+\path(4137,612)(5362,612)(5362,12)
+	(4137,12)(4137,612)
+\path(4137,1587)(5362,1587)(5362,987)
+	(4137,987)(4137,1587)
+\path(1587,1587)(2412,1587)(2412,987)
+	(1587,987)(1587,1587)
+\path(1587,612)(2412,612)(2412,12)
+	(1587,12)(1587,612)
+\path(2937,612)(3762,612)(3762,12)
+	(2937,12)(2937,612)
+\path(2937,1587)(3762,1587)(3762,987)
+	(2937,987)(2937,1587)
+\end{picture}
+}

@@ -1,0 +1,71 @@
+\setlength{\unitlength}{0.00083333in}
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+{\renewcommand{\dashlinestretch}{30}
+\begin{picture}(4870,1857)(0,-10)
+%  polyline 
+\path(855,1830)(4858,1830)(4858,1050)
+	(855,1050)(855,1830)
+%  text 
+\put(969,1362){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}square:}}}}}
+%  polyline 
+\path(498,1399)(837,1399)
+%  polyline 
+\path(740,1437)(837,1399)(740,1361)
+%  polyline 
+\path(2641,379)(2641,12)
+\path(2611.000,132.000)(2641.000,12.000)(2671.000,132.000)
+%  polyline 
+\path(4114,379)(4114,12)
+\path(4084.000,132.000)(4114.000,12.000)(4144.000,132.000)
+%  polyline 
+\path(1292,395)(1292,12)
+\path(1262.000,132.000)(1292.000,12.000)(1322.000,132.000)
+%  text 
+\put(969,1140){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}f:}}}}}
+%  text 
+\put(969,1583){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}sum-of-squares:}}}}}
+%  text 
+\put(0,1464){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}глобальное}}}}}
+%  text 
+\put(0,1281){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}окружение}}}}}
+\put(1591,395){\ellipse{320}{320}}
+\put(1292,395){\ellipse{320}{320}}
+\put(1292,395){\blacken\ellipse{100}{100}}
+\put(1292,395){\ellipse{100}{100}}
+\put(2641,395){\blacken\ellipse{100}{100}}
+\put(2641,395){\ellipse{100}{100}}
+\put(4114,395){\ellipse{320}{320}}
+\put(4414,395){\ellipse{320}{320}}
+\put(1591,395){\blacken\ellipse{100}{100}}
+\put(1591,395){\ellipse{100}{100}}
+\put(2641,395){\ellipse{320}{320}}
+\put(2969,395){\blacken\ellipse{100}{100}}
+\put(2969,395){\ellipse{100}{100}}
+\put(4114,395){\blacken\ellipse{100}{100}}
+\put(4114,395){\ellipse{100}{100}}
+\put(4414,395){\blacken\ellipse{100}{100}}
+\put(4414,395){\ellipse{100}{100}}
+\put(2969,395){\ellipse{320}{320}}
+\path(1729,1407)(2829,1407)
+\path(4404,357)(4779,357)(4779,1032)
+\path(4809.000,912.000)(4779.000,1032.000)(4749.000,912.000)
+\path(4404,357)(4779,357)(4779,1050)
+\path(4809.000,930.000)(4779.000,1050.000)(4749.000,930.000)
+\path(2829,1392)(2829,582)
+\path(2799.000,702.000)(2829.000,582.000)(2859.000,702.000)
+\path(2429,1632)(4254,1632)(4254,582)
+\path(4224.000,702.000)(4254.000,582.000)(4284.000,702.000)
+\path(1238,1182)(1438,1182)(1438,582)
+\path(1408.000,702.000)(1438.000,582.000)(1468.000,702.000)
+\path(2969,395)(3354,395)(3354,1050)
+\path(3384.000,930.000)(3354.000,1050.000)(3324.000,930.000)
+\path(1591,395)(2004,395)(2004,1050)
+\path(2034.000,930.000)(2004.000,1050.000)(1974.000,930.000)
+\end{picture}
+}

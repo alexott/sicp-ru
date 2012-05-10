@@ -1,0 +1,38 @@
+\setlength{\unitlength}{0.00083333in}
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+{\renewcommand{\dashlinestretch}{30}
+\begin{picture}(1790,1488)(0,-10)
+%  polyline 
+\path(410,703)(633,195)
+%  polyline 
+\path(410,703)(188,188)
+%  polyline 
+\path(1008,1245)(1743,465)
+%  polyline 
+\path(1008,1245)(1173,405)
+%  polyline 
+\path(1008,1245)(410,703)
+%  text 
+\put(0,765){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}(1 2)}}}}}
+%  text 
+\put(138,15){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}1}}}}}
+%  text 
+\put(588,0){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}2}}}}}
+%  text 
+\put(1143,225){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}3}}}}}
+%  text 
+\put(1698,277){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}4}}}}}
+%  text 
+\put(573,1365){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}((1 2) 3 4)}}}}}
+\put(1008,1245){\blacken\ellipse{60}{60}}
+\put(1008,1245){\ellipse{60}{60}}
+\put(410,703){\blacken\ellipse{60}{60}}
+\put(410,703){\ellipse{60}{60}}
+\end{picture}
+}

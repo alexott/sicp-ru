@@ -1,0 +1,36 @@
+\mbox{\beginpicture
+\setcoordinatesystem units <1pt,1pt>
+\unitlength=1pt
+\linethickness=1pt
+\setlinear
+{\plot 0.0 61.6 22.4 43.2 /
+\plot 22.4 43.2 44.8 47.2 /
+\plot 44.8 47.2 59.2 47.2 /
+\plot 59.2 47.2 51.2 61.6 /
+\plot 51.2 61.6 59.2 72.8 /
+}%
+{\plot 88.0 72.8 96.0 61.6 /
+\plot 96.0 61.6 88.0 47.2 /
+\plot 88.0 47.2 108.8 47.2 /
+\plot 108.8 47.2 145.6 26.4 /
+}%
+{\plot 0.0 47.2 22.4 28.8 /
+\plot 22.4 28.8 44.8 43.2 /
+\plot 44.8 43.2 52.8 36.0 /
+\plot 52.8 36.0 36.8 0.0 /
+}%
+{\plot 59.2 0.0 72.0 21.6 /
+\plot 72.0 21.6 88.0 0.0 /
+}%
+{\plot 108.8 0.0 88.0 32.8 /
+\plot 88.0 32.8 145.6 11.2 /
+}%
+{\setdashes <10pt>
+\plot 0.0 0.0 0.0 72.8 /
+\plot 0.0 72.8 145.6 72.8 /
+\plot 145.6 72.8 145.6 0.0 /
+\plot 145.6 0.0 0.0 0.0 /
+}%
+\linethickness=0pt
+\putrectangle corners at 0.0 0.0 and 145.6 72.8
+\endpicture}

@@ -1,0 +1,74 @@
+\setlength{\unitlength}{0.00083333in}
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+{\renewcommand{\dashlinestretch}{30}
+\begin{picture}(2095,2324)(0,-10)
+%  polyline 
+\whiten\path(712,2297)(1374,2297)(1374,1686)
+	(712,1686)(712,2297)
+\path(712,2297)(1374,2297)(1374,1686)
+	(712,1686)(712,2297)
+%  polyline 
+\path(712,2297)(1374,2297)(1374,1686)
+	(712,1686)(712,2297)
+%  polyline 
+\whiten\path(12,1233)(675,1233)(675,648)
+	(12,648)(12,1233)
+\path(12,1233)(675,1233)(675,648)
+	(12,648)(12,1233)
+%  polyline 
+\path(12,1233)(675,1233)(675,648)
+	(12,640)(12,1233)
+%  polyline 
+\whiten\path(1421,1239)(2083,1239)(2083,643)
+	(1421,643)(1421,1239)
+\path(1421,1239)(2083,1239)(2083,643)
+	(1421,643)(1421,1239)
+%  polyline 
+\path(1421,1239)(2083,1239)(2083,643)
+	(1421,640)(1421,1239)
+%  text 
+\put(286,0){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}A}}}}}
+%  text 
+\put(1711,0){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}B}}}}}
+%  text 
+\put(772,1357){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}C}}}}}
+%  text 
+\put(1269,1361){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}D}}}}}
+%  text 
+\put(1239,2124){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}I}}}}}
+%  text 
+\put(452,1070){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}II}}}}}
+%  text 
+\put(1797,1073){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}III}}}}}
+%  text 
+\put(798,1981){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}x:3}}}}}
+%  text 
+\put(798,1799){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}y:5}}}}}
+%  text 
+\put(90,935){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}z:6}}}}}
+%  text 
+\put(90,752){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}x:7}}}}}
+%  text 
+\put(1499,930){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}m:1}}}}}
+%  text 
+\put(1499,747){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}y:2}}}}}
+%  polyline 
+\path(328,200)(328,640)
+\path(358.000,520.000)(328.000,640.000)(298.000,520.000)
+%  polyline 
+\path(1773,200)(1773,640)
+\path(1803.000,520.000)(1773.000,640.000)(1743.000,520.000)
+%  polyline 
+\path(681,935)(930,935)(930,1686)
+\path(960.000,1566.000)(930.000,1686.000)(900.000,1566.000)
+%  polyline 
+\path(1409,941)(1185,941)(1185,1686)
+\path(1215.000,1566.000)(1185.000,1686.000)(1155.000,1566.000)
+\end{picture}
+}

@@ -1,0 +1,404 @@
+\NeedsTeXFormat{LaTeX2e}[1997/12/01]
+\ProvidesPackage{russcorr}%
+    [2003/01/25
+       Style package by S.Lvovski, serge@mccme.ru]
+
+%%% Style options
+%%%
+\newif\if@longtoc
+\DeclareOption{longtoc}{\@longtoctrue}
+\DeclareOption{shorttoc}{\@longtocfalse}
+\newif\if@indentheadings
+\DeclareOption{indentheadings}{\@indentheadingstrue}
+\DeclareOption{noindentheadings}{\@indentheadingsfalse}
+\newif\if@textyo
+\DeclareOption{yo}{\@textyotrue}
+\DeclareOption{noyo}{\@textyofalse}
+
+\ExecuteOptions{shorttoc,noindentheadings,noyo}
+\ProcessOptions
+
+
+%\newcommand*{\tg}{\mathop{\operator@font tg}\nolimits}
+%\newcommand*{\ctg}{\mathop{\operator@font ctg}\nolimits}
+%\newcommand*{\cosec}{\mathop{\operator@font cosec}\nolimits}
+%\newcommand*{\arctg}{\mathop{\operator@font arctg}\nolimits}
+%\newcommand*{\arcctg}{\mathop{\operator@font arcctg}\nolimits}
+%\newcommand*{\sh}{\mathop{\operator@font sh}\nolimits}
+%\newcommand*{\ch}{\mathop{\operator@font ch}\nolimits}
+%\newcommand*{\cth}{\mathop{\operator@font cth}\nolimits}
+\@ifundefined{th}{}{%
+ \PackageInfo{russcorr}{Command \string\th\space is being redefined}
+}
+\def\th{\mathop{\operator@font th}\nolimits}
+\let\eps\varepsilon
+\let\vphi\varphi
+
+\DeclareSymbolFont{AMSa}{U}{msa}{m}{n}
+\DeclareSymbolFont{AMSb}{U}{msb}{m}{n}
+\DeclareMathSymbol{\varkappa}{\mathord}{AMSb}{"7B}
+\DeclareMathSymbol{\leqslant}{\mathrel}{AMSa}{"36}
+\DeclareMathSymbol{\geqslant}{\mathrel}{AMSa}{"3E}
+
+\def\contentsname{Оглавление}
+\def\figurename{Рис.}
+\def\partname{Часть}
+\def\listfigurename{Список рисунков}
+\def\listtablename{Список таблиц}
+\def\refname{Литература}
+\def\bibname{Литература}
+\def\indexname{Предметный указатель}
+\def\tablename{Таблица}
+\def\abstractname{Аннотация}
+\@ifundefined{chapter}{}{\def\chaptername{Глава}}
+\def\proofname{Доказательство}
+\def\appendixname{Приложение}
+\def\prefacename{Предисловие}
+
+%%
+\def\ralph#1{\@ralph{\@nameuse {c@#1}}}
+\def\@ralph#1{\ifcase #1\or а\or б\or в\or г\or д\or е\or ж\or з\or
+и\or к\or л\or м\or н\or о\or п\or р\or с\or т\or у\or ф\or х\or
+ц\or ч\or ш\or щ\or э\or ю\or я\else\@ctrerr  \fi
+}
+\def\Ralph#1{\@Ralph{\@nameuse {c@#1}}}
+\def\@Ralph#1{\ifcase #1\or А\or Б\or В\or Г\or Д\or Е\or Ж\or З\or
+И\or К\or Л\or М\or Н\or О\or П\or Р\or С\or Т\or У\or Ф\or Х\or
+Ц\or Ч\or Ш\or Щ\or Э\or Ю\or Я\else\@ctrerr  \fi
+}
+
+% Теперь "русифицируем" окружение enumerate:
+
+\def\labelenumi{\theenumi)}
+\def\theenumii{\ralph{enumii}}
+\def\labelenumii{\theenumii)}
+\def\p@enumii{\theenumi}
+\def\labelenumiii{{\bf--}}
+\let\theenumiii\relax
+\def\p@enumiii{\theenumi\theenumii}
+%
+% И еще запретим вкладывать четыре enumerate друг в друга ...
+%
+\def\enumerate{\ifnum \@enumdepth >2% было 3, а не 2
+\@toodeep\else
+      \advance\@enumdepth \@ne
+      \edef\@enumctr{enum\romannumeral\the\@enumdepth}\list
+      {\csname label\@enumctr\endcsname}{\usecounter
+        {\@enumctr}\def\makelabel##1{\hss\llap{##1}}}\fi}
+%
+%
+\@definecounter{rlistctr}
+\newif\if@rlistsnested\@rlistsnestedfalse
+\def\rlist{\@ifnextchar[{\@rlist}{\@rlist[l]}}
+\def\@rlist[#1]{\if u#1\def\@tempa{R}\else\def\@tempa{r}\fi
+                \if@rlistsnested\@toodeep\else
+                \@rlistsnestedtrue
+                \edef\therlistctr{\expandafter\noexpand\csname
+                                @\@tempa alph\endcsname\noexpand\c@rlistctr}%
+                \list{\labelrlist}{\usecounter
+                   {rlistctr}}\fi}
+\let\endrlist\endlist
+\def\labelrlist{\therlistctr)}
+
+
+\def\@seccntformat#1{\csname pre#1\endcsname\csname the#1\endcsname
+                \csname post#1\endcsname}
+\let\@Tocseccntformat\@seccntformat
+\def\@postskip@{\hskip.5em\relax}
+\def\postsection{.\@postskip@}
+\def\postsubsection{.\@postskip@}
+\def\postsubsubsection{.\@postskip@}
+\def\postparagraph{.\@postskip@}
+\def\postsubparagraph{.\@postskip@}
+\def\presection{}
+\def\presubsection{}
+\def\presubsubsection{}
+\def\preparagraph{}
+\def\presubparagraph{}
+%%% Unfortunately, \@seccntformat is not reflected in toc.
+%%% Hence, I had to hack up the definition of \@sect a little.
+\def\@sect#1#2#3#4#5#6[#7]#8{%
+  \ifnum #2>\c@secnumdepth
+    \let\@svsec\@empty
+  \else
+    \refstepcounter{#1}%
+    \protected@edef\@svsec{\@seccntformat{#1}\relax}%
+  \fi
+  \@tempskipa #5\relax
+  \ifdim \@tempskipa>\z@
+    \begingroup
+      #6{%
+        \@hangfrom{\hskip #3\relax\@svsec}%
+          \interlinepenalty \@M #8\@@par}%
+    \endgroup
+    \csname #1mark\endcsname{#7}%
+    \addcontentsline{toc}{#1}{%
+      \ifnum #2>\c@secnumdepth \else
+        \protect\numberline{\@Tocseccntformat{#1}}%
+      \fi
+      \if@longtoc#8\else#7\fi}%
+  \else
+    \def\@svsechd{%
+      #6{\hskip #3\relax
+      \@svsec #8}%
+      \csname #1mark\endcsname{#7}%
+      \addcontentsline{toc}{#1}{%
+        \ifnum #2>\c@secnumdepth \else
+          \protect\numberline{\@Tocseccntformat{#1}}%
+        \fi
+        \if@longtoc#8\else#7\fi}}%
+  \fi
+  \@xsect{#5}}
+
+
+\if@indentheadings
+\def\section{\@startsection {section}{1}{\parindent}%
+                                   {3.5ex \@plus 1ex \@minus .2ex}%
+                                   {2.3ex \@plus.2ex}%
+                                   {\reset@font\Large\bfseries}}
+\def\subsection{\@startsection{subsection}{2}{\parindent}%
+                                     {3.25ex\@plus 1ex \@minus .2ex}%
+                                     {1.5ex \@plus .2ex}%
+                                     {\reset@font\large\bfseries}}
+\def\subsubsection{\@startsection{subsubsection}{3}{\parindent}%
+                                     {3.25ex\@plus 1ex \@minus .2ex}%
+                                     {1.5ex \@plus .2ex}%
+                                     {\reset@font\normalsize\bfseries}}
+\fi
+
+
+\def\@mainmattertrue{\let\if@mainmatter\iftrue}
+\def\@mainmatterfalse{\let\if@mainmatter\iffalse}
+\@ifclassloaded{report}{\@mainmattertrue}{}
+
+\@ifundefined{chapter}{}{%
+\def\postchapter{.}
+\def\chapter{\if@openright\cleardoublepage\else\clearpage\fi
+                    \thispagestyle{plain}%
+                    \global\@topnum\z@
+                    \if@indentheadings\@afterindenttrue
+                        \else\@afterindentfalse
+                    \fi
+                    \secdef\@chapter\@schapter}
+\def\@chapter[#1]#2{\ifnum \c@secnumdepth >\m@ne
+                       \if@mainmatter
+                         \refstepcounter{chapter}%
+                         \typeout{\@chapapp\space\thechapter.}%
+                         \addcontentsline{toc}{chapter}%
+                                   {\protect\numberline{\thechapter
+                                         \postchapter}%
+                        \if@longtoc#2\else#1\fi}%
+                       \else
+                         \addcontentsline{toc}{chapter}%
+                       {\if@longtoc#2\else#1\fi}\fi
+                    \else
+                      \addcontentsline{toc}{chapter}{\if@longtoc#2\else#1\fi}
+                    \fi
+                    \chaptermark{#1}%
+                    \addtocontents{lof}{\protect\addvspace{10\p@}}%
+                    \addtocontents{lot}{\protect\addvspace{10\p@}}%
+                    \if@twocolumn
+                      \@topnewpage[\@makechapterhead{#2}]%
+                    \else
+                      \@makechapterhead{#2}%
+                      \@afterheading
+                    \fi}
+}% end of conditional
+\@ifundefined{chapter}{}{%
+\def\@makechapterhead#1{%
+  \vspace*{50\p@}%
+  {\reset@font \@tempdima\parindent \raggedright
+%%%            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     \if@indentheadings\advance\leftskip\@tempdima\fi
+%%%  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    \ifnum \c@secnumdepth >\m@ne
+       \if@mainmatter
+         \huge\bfseries \@chapapp{} \thechapter\postchapter
+         \par\nobreak
+         \vskip 20\p@
+       \fi
+       \fi
+    \interlinepenalty\@M
+    \Huge \bfseries #1\par
+    \nobreak
+    \vskip 40\p@
+  }}%
+\def\@schapter#1{\if@twocolumn
+                   \@topnewpage[\@makeschapterhead{#1}]%
+                 \else
+                   \@makeschapterhead{#1}%
+                   \@afterheading
+                 \fi}
+\def\@makeschapterhead#1{%
+  \vspace*{50\p@}%
+  {\reset@font \@tempdima\parindent \raggedright
+%%^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     \if@indentheadings\advance\leftskip\@tempdima\fi
+%%^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    \interlinepenalty\@M
+    \Huge \bfseries  #1\par\nobreak
+    \nobreak
+    \vskip 40\p@
+  }}
+}% end of conditional
+
+
+\long\def\@makecaption#1#2{%
+  \vskip\abovecaptionskip
+  \sbox\@tempboxa{#1. #2}%
+  \ifdim \wd\@tempboxa >\hsize
+    \unhbox\@tempboxa\par
+  \else
+    \global \@minipagefalse
+    \hbox to\hsize{\hfil\box\@tempboxa\hfil}%
+  \fi
+  \vskip\belowcaptionskip}
+
+\long\def\@caption#1[#2]#3{\par\addcontentsline{\csname
+  ext@#1\endcsname}{#1}{\protect\numberline{\csname
+  the#1\endcsname.}{\ignorespaces #2}}\begingroup
+    \@parboxrestore
+    \normalsize
+    \@makecaption{\csname fnum@#1\endcsname}{\ignorespaces #3}\par
+  \endgroup}
+
+\def\afterthmseparator{.}
+\expandafter\ifx\csname theoremstyle\endcsname\relax
+  \def\@begintheorem#1#2{\trivlist
+     \item[\hskip \labelsep{\bfseries #1\ #2\unskip\afterthmseparator
+  }]\itshape}
+  \def\@opargbegintheorem#1#2#3{\trivlist
+        \item[\hskip \labelsep{\bfseries #1\ #2\ (#3)\afterthmseparator
+  }]\itshape}
+\fi
+
+% Running heads
+
+\def\@ArticleHeadingsCorr{%
+  \if@twoside
+   \def\ps@headings{\let\@mkboth\markboth
+   \let\@oddfoot\@empty\let\@evenfoot\@empty
+   \def\@evenhead{\thepage\hfil\slshape\leftmark}%
+   \def\@oddhead{{\slshape\rightmark}\hfil\thepage}%
+    \def\sectionmark####1{\markboth {\uppercase{\ifnum \c@secnumdepth >\z@
+      \thesection\postsection \hskip 1em\relax \fi ####1}}{}}%
+    \def\subsectionmark####1{\markright {\ifnum \c@secnumdepth >\@ne
+            \thesubsection\postsubsection \hskip 1em\relax \fi ####1}}}
+  \else
+   \def\ps@headings{\let\@mkboth\markboth
+    \let\@oddfoot\@empty
+    \def\@oddhead{{\slshape\rightmark}\hfil\thepage}%
+    \def\sectionmark####1{\markright {\uppercase{\ifnum \c@secnumdepth >\z@
+      \thesection\postsection \hskip 1em\relax \fi ####1}}}}
+  \fi
+}
+\def\@ReportHeadingsCorr{%
+  \if@twoside
+    \def\ps@headings{\let\@mkboth\markboth
+    \let\@oddfoot\@empty\let\@evenfoot\@empty
+    \def\@evenhead{\thepage\hfil\slshape\leftmark}%
+    \def\@oddhead{{\slshape\rightmark}\hfil\thepage}%
+    \def\chaptermark####1{\markboth{\uppercase{\ifnum\c@secnumdepth>\m@ne
+         \@chapapp\ \thechapter.\fi ####1}}{}}%
+    \def\sectionmark####1{\markright{\uppercase{\ifnum\c@secnumdepth>\z@
+      \thesection. \fi ####1}}}}
+  \else
+    \def\ps@headings{\let\@mkboth\markboth
+    \let\@oddfoot\@empty
+    \def\@oddhead{{\slshape\rightmark}\hfil\thepage}%
+    \def\chaptermark####1{\markright{\uppercase{\ifnum\c@secnumdepth>\m@ne
+      \@chapapp\ \thechapter. \fi ####1}}}}
+  \fi
+}
+\def\@BookHeadingsCorr{%
+\def\ps@headings{\let\@mkboth\markboth
+ \let\@oddfoot\@empty\let\@evenfoot\@empty
+ \def\@evenhead{\thepage\hfil\slshape\leftmark}%
+ \def\@oddhead{{\slshape\rightmark}\hfil\thepage}%
+      \def\chaptermark####1{%
+        \markboth {\uppercase{\ifnum \c@secnumdepth >\m@ne
+          \if@mainmatter
+            \@chapapp\ \thechapter. \fi\fi
+%%% added by V.Shuvalov                ^^^
+            ####1}}{}}%
+ \def\sectionmark####1{\markright {\uppercase{\ifnum \c@secnumdepth >\z@
+   \thesection. \fi ####1}}}}
+}
+\@ifclassloaded{article}{\@ArticleHeadingsCorr}{}
+\@ifclassloaded{report}{\@ReportHeadingsCorr}{}
+\@ifclassloaded{book}{\@BookHeadingsCorr}{}
+
+\@ifclassloaded{article}{%
+  \def\appendix{\par
+    \setcounter{section}{0}%
+    \setcounter{subsection}{0}%
+    \let\sectionname\appendixname
+    \def\thesection{\@Ralph\c@section}}
+}{%
+\def\appendix{\par
+   \setcounter{chapter}{0}%
+   \setcounter{section}{0}%
+   \def\@chapapp{\appendixname}%
+   \def\thechapter{\@Ralph\c@chapter}}
+}
+
+\renewcommand*{\cleardoublepage}{\clearpage\if@twoside \ifodd\c@page\else
+   {\null\ps@empty
+\newpage}\if@twocolumn{\null\ps@empty\newpage}\fi\fi\fi}
+
+\def\@allowhyphens{\penalty\@M\hskip\z@skip}
+\def\set@low@box#1{\setbox\tw@\hbox{,}\setbox\z@\hbox{#1}\dimen\z@\ht\z@
+     \advance\dimen\z@ -\ht\tw@
+     \setbox\z@\hbox{\lower\dimen\z@ \box\z@}\ht\z@\ht\tw@ \dp\z@\dp\tw@ }
+%    (this lowers the german left quotes to the same level as the comma.)
+\def\@glqq{{\ifhmode \edef\@SF{\spacefactor\the\spacefactor}\else
+     \let\@SF\empty \fi \leavevmode
+     \set@low@box{''}\box\z@\kern-.04em\@allowhyphens\@SF\relax}}
+\def\glqq{\protect\@glqq}
+\def\@grqq{\ifhmode \edef\@SF{\spacefactor\the\spacefactor}\else
+     \let\@SF\empty \fi \kern-.07em``\kern.07em\@SF\relax}
+\def\grqq{\protect\@grqq}
+\def\@glq{{\ifhmode \edef\@SF{\spacefactor\the\spacefactor}\else
+     \let\@SF\empty \fi \leavevmode
+     \set@low@box{'}\box\z@\kern-.04em\@allowhyphens\@SF\relax}}
+\def\glq{\protect\@glq}
+\def\@grq{\kern-.07em`\kern.07em}
+\def\grq{\protect\@grq}
+
+% \сегодня is the Russian counterpart of \today;
+% we prefer to keep the original \today intact
+\def\сегодня{\number\day\space
+                \ifcase\month\or
+                 января\or февраля\or марта\or апреля\or мая\or
+                 июня\or июля\or августа\or сентября\or октября\or
+                 ноября\or декабря\fi\space\number\year}
+
+
+\frenchspacing
+\righthyphenmin 2
+
+\if@textyo
+\DeclareTextComposite{\"}{OT1}{е}{`\ё}
+\DeclareTextComposite{\"}{OT1}{Е}{`\Ё}
+\fi
+
+
+%% What follows is intended to ensure compatibility with
+%% an earlier version of Russification of LaTeX 2.09,
+%% where a possibility to automatically count the total number of
+%% pages in the document was supported.
+\let\c@totalpages=\@tempcnta
+\let\@@global\global
+\def\countpages{\GenericError{%
+      \space\space\space\@spaces\@spaces\@spaces
+   }{%
+ Commands \string\countpages\space and \string\dontcountpages\space
+ are disabled,\MessageBreak
+ as well as counter `totalpages'}{%
+ Don't get upset: they were of little use anyway.%
+ }{Just press <enter> and go on.}%
+}
+\let\dontcountpages\countpages
+\AtBeginDocument{\ifdim\hsize<\@cclv\p@\pretolerance\m@ne\fi}
+
+\endinput

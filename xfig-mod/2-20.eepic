@@ -1,0 +1,36 @@
+\setlength{\unitlength}{0.00083333in}
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+{\renewcommand{\dashlinestretch}{30}
+\begin{picture}(4917,2410)(0,-10)
+%  spline 
+\path(1253,625)(1255,623)(1259,619)
+	(1265,612)(1274,602)(1285,590)
+	(1296,576)(1307,560)(1318,544)
+	(1327,527)(1335,509)(1341,489)
+	(1344,467)(1343,445)(1337,420)
+	(1327,399)(1314,381)(1299,365)
+	(1283,352)(1266,341)(1250,331)
+	(1235,323)(1224,317)(1217,314)(1213,312)
+%  polyline 
+\path(12,312)(3387,312)
+\path(3267.000,282.000)(3387.000,312.000)(3267.000,342.000)
+%  polyline 
+\path(612,12)(612,2142)
+\path(642.000,2022.000)(612.000,2142.000)(582.000,2022.000)
+%  polyline 
+\path(612,312)(2922,1445)
+\put(2922,1445){\blacken\ellipse{60}{60}}
+\put(2922,1445){\ellipse{60}{60}}
+\put(443,2245){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}Мнимые}}}}}
+\put(3518,295){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}Действительные}}}}}
+\put(3068,1495){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\itdefault}z = x + iy = re}}}}}
+\put(1118,370){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}A}}}}}
+\put(4253,1625){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\itdefault}iA}}}}}
+\end{picture}
+}

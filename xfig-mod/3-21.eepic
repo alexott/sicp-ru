@@ -1,0 +1,102 @@
+\setlength{\unitlength}{0.00083333in}
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+{\renewcommand{\dashlinestretch}{30}
+\begin{picture}(4788,1539)(0,-10)
+%  text 
+\put(4050,1062){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}rear-ptr}}}}}
+%  polyline 
+\path(3825,612)(3825,312)
+\path(3795.000,432.000)(3825.000,312.000)(3855.000,432.000)
+%  polyline 
+\path(2025,612)(2025,312)
+\path(1995.000,432.000)(2025.000,312.000)(2055.000,432.000)
+%  polyline 
+\path(2925,612)(2925,312)
+\path(2895.000,432.000)(2925.000,312.000)(2955.000,432.000)
+%  polyline 
+\path(2294,605)(2775,605)
+\path(2655.000,575.000)(2775.000,605.000)(2655.000,635.000)
+%  polyline 
+\path(3194,605)(3675,605)
+\path(3555.000,575.000)(3675.000,605.000)(3555.000,635.000)
+%  polyline 
+\path(1170,605)(1874,605)
+\path(1754.000,575.000)(1874.000,605.000)(1754.000,635.000)
+%  polyline 
+\path(900,612)(900,312)
+\path(870.000,432.000)(900.000,312.000)(930.000,432.000)
+%  polyline 
+\path(900,1362)(900,1137)(2175,1137)(2175,762)
+\path(2145.000,882.000)(2175.000,762.000)(2205.000,882.000)
+%  polyline 
+\path(735,1385)(180,1385)
+%  polyline 
+\path(1200,1362)(3975,1362)(3975,762)
+\path(3945.000,882.000)(3975.000,762.000)(4005.000,882.000)
+%  text 
+\put(850,112){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}a}}}}}
+%  text 
+\put(1979,112){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}b}}}}}
+%  text 
+\put(2925,112){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}c}}}}}
+%  text 
+\put(3825,112){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}d}}}}}
+%  text 
+\put(0,1340){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}q}}}}}
+%  text 
+\put(930,995){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}front-ptr}}}}}
+\put(1200,1362){\blacken\ellipse{60}{60}}
+\put(1200,1362){\ellipse{60}{60}}
+\put(900,1362){\blacken\ellipse{60}{60}}
+\put(900,1362){\ellipse{60}{60}}
+\put(900,612){\blacken\ellipse{60}{60}}
+\put(900,612){\ellipse{60}{60}}
+\put(1200,612){\blacken\ellipse{60}{60}}
+\put(1200,612){\ellipse{60}{60}}
+\put(3825,612){\blacken\ellipse{60}{60}}
+\put(3825,612){\ellipse{60}{60}}
+\put(2325,612){\blacken\ellipse{60}{60}}
+\put(2325,612){\ellipse{60}{60}}
+\put(2025,612){\blacken\ellipse{60}{60}}
+\put(2025,612){\ellipse{60}{60}}
+\put(3225,612){\blacken\ellipse{60}{60}}
+\put(3225,612){\ellipse{60}{60}}
+\put(2925,612){\blacken\ellipse{60}{60}}
+\put(2925,612){\ellipse{60}{60}}
+\path(1050,1512)(1350,1512)(1350,1212)
+	(1050,1212)(1050,1512)
+\path(750,1512)(1050,1512)(1050,1212)
+	(750,1212)(750,1512)
+\path(750,762)(1050,762)(1050,462)
+	(750,462)(750,762)
+\path(1050,762)(1350,762)(1350,462)
+	(1050,462)(1050,762)
+\path(750,312)(1050,312)(1050,12)
+	(750,12)(750,312)
+\path(3975,462)(4275,762)
+\path(3675,312)(3975,312)(3975,12)
+	(3675,12)(3675,312)
+\path(3975,762)(4275,762)(4275,462)
+	(3975,462)(3975,762)
+\path(3675,762)(3975,762)(3975,462)
+	(3675,462)(3675,762)
+\path(1875,762)(2175,762)(2175,462)
+	(1875,462)(1875,762)
+\path(2175,762)(2475,762)(2475,462)
+	(2175,462)(2175,762)
+\path(1875,312)(2175,312)(2175,12)
+	(1875,12)(1875,312)
+\path(2775,762)(3075,762)(3075,462)
+	(2775,462)(2775,762)
+\path(3075,762)(3375,762)(3375,462)
+	(3075,462)(3075,762)
+\path(2775,312)(3075,312)(3075,12)
+	(2775,12)(2775,312)
+\end{picture}
+}

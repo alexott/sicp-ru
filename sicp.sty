@@ -1,0 +1,128 @@
+%% Index
+\ProvidesPackage{sicp}
+
+% A trick to prevent \dimen overflowing
+\def\newskimen#1%
+   {\ifx#1\undefined
+      \csname new\ifnum\count11>\count12 skip\else dimen\fi\endcsname#1%
+    \fi}
+
+\def\LoadSkimmedStyle#1%
+   {\let\normalnewdimen\newdimen
+    \let\newdimen\newskimen
+    \usepackage{#1} \relax
+    \let\newdimen\normalnewdimen}
+
+
+\usepackage{epic}
+\usepackage{eepic}
+\usepackage{multicol}
+\usepackage{synttree}
+\LoadSkimmedStyle{amsmath}
+\usepackage{ifthen}
+\renewcommand{\@idxitem}{\par\hangindent=20pt}
+\renewcommand*{\subitem}{\par\hangindent=30pt\hspace*{10pt}}
+\renewcommand*{\subsubitem}{\par\hangindent=30pt\hspace*{10pt}}
+\parskip=0pt
+\textwidth=140mm
+\textheight = 194mm
+                                  
+%(высота полосы набора - \headheight - \headsep -\topskip) \divide \baselineskip (целочисленно) * \baselineskip + \topskip.
+
+\renewcommand{\@oddfoot}{}
+\renewcommand{\@evenfoot}{}
+\renewcommand{\textfraction}{0,1}
+%\raggedbottom
+%\renewcommand{\@chapapp}{Г\\л\\а\\в\\а}
+%\renewcommand{\@makechapterhead}{%
+%	\marginpar{\Huge \bfseries{\@chapapp \\ \thechapter}}
+%	}
+
+%Redefining chapterheads:
+\renewcommand{\chapter}{\clearpage %instead of cleardoublepage.--MR
+\thispagestyle{plain}
+\global\@topnum=0%abracadabra from Lvovsky. I don't understand it.--MR
+\@afterindenttrue%The first paragraph will be indented.--MR
+\secdef\@chapter\@schapter}%abracadabra copied from Lvovsky. --MR
+
+%\newcommand\chapter{\if@openright\cleardoublepage\else\clearpage\fi
+%                    \thispagestyle{empty}%
+%                    \global\@topnum\z@
+%                    \@afterindentfalse
+%                    \secdef\@chapter\@schapter}
+
+
+%Redefining contentslines for chapters:
+\renewcommand{\l@chapter}[2]{%
+  \ifnum \c@tocdepth >\m@ne
+    \addpenalty{-\@highpenalty}%
+    \vskip 1.0em \@plus\p@
+    \setlength\@tempdima{1.5em}%
+    \begingroup
+      \parindent \z@ \rightskip \@pnumwidth
+      \parfillskip -\@pnumwidth
+      \leavevmode {\bfseries
+      \advance\leftskip\@tempdima
+      \hskip -\leftskip
+      #1\nobreak}\dotfill \nobreak\hb@xt@\@pnumwidth{\hss #2}\par
+      \penalty\@highpenalty
+    \endgroup
+  \fi}
+
+%%%%%%%%%%%%%%%%
+\renewcommand{\paragraph}{\@startsection{paragraph}{4}{\z@}%
+             {-3.25ex \@plus-1ex \@minus-.2ex}%
+             {1ex}%
+             {\normalfont\normalsize\bfseries}}
+\setlength{\epigraphrule}{0pt}
+\newcounter{exercise}[chapter]
+\renewcommand{\theexercise}{\thechapter.\arabic{exercise}}
+\renewcommand{\@dotsep}{1,8}
+
+%%%%%%%%%%%%%%%%%
+\newenvironment{exercise}[2][par]%
+{\par\bigskip%
+\noindent%
+\refstepcounter{exercise}%
+{\bf\small Упражнение #2.}%
+\nopagebreak%
+\ifthenelse{\equal{#1}{par}}{\par{}\noindent{}}{}%
+\small{}}
+{}
+																      
+\newcommand{\translationnote}[1]{{\renewcommand{\@makefnmark}{\mbox{$^*$}}\footnotemark{}\footnotetext{#1 --- {\it прим. перев.}}}\addtocounter{footnote}{-1}}
+\makeatother
+\title{Структура и интерпретация компьютерных программ}
+\author{Харольд Абельсон \and Джеральд Джей Сассман \and при участии Джули Сассман}
+
+\renewcommand{\topfraction}{2}
+
+\tolerance=400
+\newenvironment{cntrfig}{\begin{figure}\begin{center}}%
+{\end{center}\end{figure}}
+
+
+\newcounter{pl}
+\newenvironment{plainenum}%
+               {\begin{list}%
+	              {\ralph{pl}.}
+		      {\usecounter{pl}
+  		       \leftmargin=0pt
+		       \parskip=0pt
+		       \topsep=0pt
+		       \partopsep=0pt
+		       \itemindent=20pt
+	              }%
+	       }%
+	       {\end{list}}
+
+\newenvironment{plainlist}{\begin{list}%
+	                         {\textbullet}%	
+	                         {\leftmargin=0pt
+				 \itemsep=0pt
+	                         \parskip=0pt
+		                 \topsep=5pt
+		                 \itemindent=25pt%Как у абзацев. А может, сделать 0? Вопрос Вадику.
+	                         }		
+	                  }	      
+	                  {\end{list} \par}                    
