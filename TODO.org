@@ -1,0 +1,6 @@
+
+* TODO Fix build
+
+ - [ ] Correct work with UTF-8
+ - [ ] Write Makefile
+ - [ ] Correct indexes (take code from tapl-ru)
