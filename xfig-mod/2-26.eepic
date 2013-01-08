@@ -35,44 +35,44 @@
 %  polyline 
 \path(3404,3608)(2624,3113)
 %  text 
-\put(1995,4448){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}многоугольник}}}}}
+\put(1995,4448){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п╪п╫п╬пЁп╬я┐пЁп╬п╩я▄п╫п╦п╨}}}}}
 %  polyline 
 \path(1215,2558)(540,1763)
 %  text 
-\put(2820,3683){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}четырехугольник}}}}}
+\put(2820,3683){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}я┤п╣я┌я▀я─п╣я┘я┐пЁп╬п╩я▄п╫п╦п╨}}}}}
 %  text 
-\put(3554,53){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}квадрат}}}}}
+\put(3554,53){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п╨п╡п╟п╢я─п╟я┌}}}}}
 %  text 
-\put(869,2618){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}треугольник}}}}}
+\put(869,2618){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}я┌я─п╣я┐пЁп╬п╩я▄п╫п╦п╨}}}}}
 %  text 
-\put(2175,2925){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}трапеция}}}}}
+\put(2175,2925){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}я┌я─п╟п©п╣я├п╦я▐}}}}}
 %  text 
-\put(3675,2925){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}четырехугольник}}}}}
+\put(3675,2925){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}я┤п╣я┌я▀я─п╣я┘я┐пЁп╬п╩я▄п╫п╦п╨}}}}}
 %  text 
-\put(2654,1988){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}параллелограмм}}}}}
+\put(2654,1988){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п©п╟я─п╟п╩п╩п╣п╩п╬пЁя─п╟п╪п╪}}}}}
 %  text 
-\put(0,1575){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}равнобедренный}}}}}
+\put(0,1575){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}я─п╟п╡п╫п╬п╠п╣п╢я─п╣п╫п╫я▀п╧}}}}}
 %  text 
-\put(0,1425){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}треугольник}}}}}
+\put(0,1425){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}я┌я─п╣я┐пЁп╬п╩я▄п╫п╦п╨}}}}}
 %  text 
-\put(1575,1575){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}прямоугольный}}}}}
+\put(1575,1575){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п©я─я▐п╪п╬я┐пЁп╬п╩я▄п╫я▀п╧}}}}}
 %  text 
-\put(1575,1425){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}треугольник}}}}}
+\put(1575,1425){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}я┌я─п╣я┐пЁп╬п╩я▄п╫п╦п╨}}}}}
 %  text 
-\put(2595,998){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}прямоугольник}}}}}
+\put(2595,998){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п©я─я▐п╪п╬я┐пЁп╬п╩я▄п╫п╦п╨}}}}}
 %  text 
-\put(4440,983){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}ромб}}}}}
+\put(4440,983){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}я─п╬п╪п╠}}}}}
 %  text 
-\put(0,263){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}равносторонний}}}}}
+\put(0,263){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}я─п╟п╡п╫п╬я│я┌п╬я─п╬п╫п╫п╦п╧}}}}}
 %  text 
-\put(0,75){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}треугольник}}}}}
+\put(0,75){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}я┌я─п╣я┐пЁп╬п╩я▄п╫п╦п╨}}}}}
 %  text 
-\put(1575,300){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}равнобедренный}}}}}
+\put(1575,300){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}я─п╟п╡п╫п╬п╠п╣п╢я─п╣п╫п╫я▀п╧}}}}}
 %  text 
-\put(1575,150){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}прямоугольный}}}}}
+\put(1575,150){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п©я─я▐п╪п╬я┐пЁп╬п╩я▄п╫я▀п╧}}}}}
 %  text 
-\put(1575,0){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}треугольник}}}}}
+\put(1575,0){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}я┌я─п╣я┐пЁп╬п╩я▄п╫п╦п╨}}}}}
 \path(4275,2700)(4650,1200)
-\put(3300,2775){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}с перпендикулярными диагоналями}}}}}
+\put(3300,2775){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}я│ п©п╣я─п©п╣п╫п╢п╦п╨я┐п╩я▐я─п╫я▀п╪п╦ п╢п╦п╟пЁп╬п╫п╟п╩я▐п╪п╦}}}}}
 \end{picture}
 }

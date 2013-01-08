@@ -21,9 +21,9 @@
 \path(3182,618)(3985,618)(3985,204)
 	(3182,204)(3182,618)
 %  text 
-\put(0,3514){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}глобальное}}}}}
+\put(0,3514){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}пЁп╩п╬п╠п╟п╩я▄п╫п╬п╣}}}}}
 %  text 
-\put(0,3331){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}окружение}}}}}
+\put(0,3331){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п╬п╨я─я┐п╤п╣п╫п╦п╣}}}}}
 %  polyline 
 \path(594,3449)(974,3449)
 %  polyline 
@@ -85,13 +85,13 @@
 %  text 
 \put(3141,2139){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}sqrt-iter:...}}}}}
 %  text 
-\put(3690,1090){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}параметры:}}}}}
+\put(3690,1090){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}п©п╟я─п╟п╪п╣я┌я─я▀:}}}}}
 %  text 
-\put(3690,907){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}тело: }}}}}
+\put(3690,907){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}я┌п╣п╩п╬: }}}}}
 %  text 
-\put(0,2160){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}параметры:}}}}}
+\put(0,2160){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п©п╟я─п╟п╪п╣я┌я─я▀:}}}}}
 %  text 
-\put(0,1977){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}тело:}}}}}
+\put(0,1977){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}я┌п╣п╩п╬:}}}}}
 %  text 
 \put(466,1794){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}(define improve ...)}}}}}
 %  text 
@@ -103,9 +103,9 @@
 %  text 
 \put(466,1427){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}(sqrt-iter 1.0)}}}}}
 %  text 
-\put(2680,36){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}вызов }}}}}
+\put(2680,36){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п╡я▀п╥п╬п╡ }}}}}
 %  text 
-\put(1990,916){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}вызов }}}}}
+\put(1990,916){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п╡я▀п╥п╬п╡ }}}}}
 \put(1425,2686){\blacken\ellipse{60}{60}}
 \put(1425,2686){\ellipse{60}{60}}
 \put(1725,2686){\blacken\ellipse{60}{60}}

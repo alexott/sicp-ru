@@ -62,10 +62,10 @@
 \path(2055,1212)(3310,1212)(3310,802)
 	(2055,802)(2055,1212)
 \put(4275,1137){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault} }}}}}
-\put(3700,987){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}изменен операцией}}}}}
+\put(3700,987){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п╦п╥п╪п╣п╫п╣п╫ п╬п©п╣я─п╟я├п╦п╣п╧}}}}}
 \put(3700,762){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}set!.}}}}}
-\put(3700,1212){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}Баланс, который будет }}}}}
-\put(0,1812){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}глобальное}}}}}
-\put(0,1587){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}окружение}}}}}
+\put(3700,1212){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п▒п╟п╩п╟п╫я│, п╨п╬я┌п╬я─я▀п╧ п╠я┐п╢п╣я┌ }}}}}
+\put(0,1812){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}пЁп╩п╬п╠п╟п╩я▄п╫п╬п╣}}}}}
+\put(0,1587){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п╬п╨я─я┐п╤п╣п╫п╦п╣}}}}}
 \end{picture}
 }

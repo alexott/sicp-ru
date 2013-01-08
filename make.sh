@@ -8,12 +8,11 @@
 echo > ru-idx.tex
 
 # Прогнать TeX два раза, чтобы все перекрестные ссылки встали на место.
-latex sicp
-latex sicp
+pdflatex sicp
+pdflatex sicp
 
 # Породить индекс
-cat ru.idx additems.idx | ./idxproc.tcl >ru-idx.tex
+cat ru.idx additems.idx | ./idxproc.tcl > ru-idx.tex
 
 # Окончательный прогон TeX, уже вместе с индексом.
-latex sicp
-dvips -o sicp.ps sicp.dvi
+pdflatex sicp

@@ -61,7 +61,7 @@
 \put(1500,387){\ellipse{60}{60}}
 \path(1200,387)(1200,12)
 \path(1170.000,132.000)(1200.000,12.000)(1230.000,132.000)
-\put(0,1887){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{10.8}{\rmdefault}{\mddefault}{\updefault}глобальное}}}}}
-\put(0,1662){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{10.8}{\rmdefault}{\mddefault}{\updefault}окружение}}}}}
+\put(0,1887){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{10.8}{\rmdefault}{\mddefault}{\updefault}пЁп╩п╬п╠п╟п╩я▄п╫п╬п╣}}}}}
+\put(0,1662){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{10.8}{\rmdefault}{\mddefault}{\updefault}п╬п╨я─я┐п╤п╣п╫п╦п╣}}}}}
 \end{picture}
 }

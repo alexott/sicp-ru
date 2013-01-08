@@ -67,9 +67,9 @@
 %  text 
 \put(1535,2538){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{10.8}{\ttdefault}{\mddefault}{\updefault}done}}}}}
 %  text 
-\put(1037,2657){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{10.8}{\familydefault}{\mddefault}{\updefault}да}}}}}
+\put(1037,2657){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{10.8}{\familydefault}{\mddefault}{\updefault}п╢п╟}}}}}
 %  text 
-\put(743,2080){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{10.8}{\familydefault}{\mddefault}{\updefault}нет}}}}}
+\put(743,2080){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{10.8}{\familydefault}{\mddefault}{\updefault}п╫п╣я┌}}}}}
 %  text 
 \put(628,2539){\makebox(0,0)[lb]{\smash{{{\SetFigFont{11}{13.2}{\ttdefault}{\mddefault}{\updefault}=}}}}}
 %  text 

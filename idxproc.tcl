@@ -1,7 +1,7 @@
 #! /usr/bin/env tclsh
 
-fconfigure stdin -encoding koi8-r
-fconfigure stdout -encoding koi8-r
+fconfigure stdin -encoding utf-8
+fconfigure stdout -encoding utf-8
 
 # Перевод строки в сортировочный ключ: материал для string map
 

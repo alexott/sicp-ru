@@ -1,5 +1,6 @@
 \documentclass[twoside]{book}%Опция draft помечает overfull'ы. Выкинем.
-\usepackage[koi8-r]{inputenc}
+\usepackage{etex}
+\usepackage[utf8]{inputenc}
 \usepackage[english,polutonikogreek,russian]{babel}	
 \usepackage{a4wide}
 \usepackage{russcorr}
@@ -11,6 +12,15 @@
 \usepackage{synttree}
 \usepackage{pscyr}
 \usepackage{indentfirst}
+
+\usepackage[colorlinks,hyperindex=false]{hyperref}
+\hypersetup{
+    pdfinfo={
+        Title={Структура и интерпретация компьютерных программ},
+        Author={Харольд Абельсон, Джеральд Джей Сассман}
+    }
+}
+
 %\usepackage[mirror]{crop}
 %\usepackage{epic}
 %\usepackage{eepic}
@@ -183,7 +193,7 @@ New York \hfill St.Louis \hfill San Francisco \hfill Montreal \hfill Toronto
 
 \chapter*{Предметный указатель}
 \markboth{Предметный указатель}{Предметный указатель}
-\addcontentsline{toc}{section}{Предметный указатель}
+\addcontentsline{toc}{chapter}{Предметный указатель}
 \epigraph{
 Все неточности в этом указателе объясняются тем, что его готовили при
 помощи вычислительной машины.
@@ -200,10 +210,8 @@ New York \hfill St.Louis \hfill San Francisco \hfill Montreal \hfill Toronto
 означают, что она не входит в стандарт Scheme IEEE.\\
 \begin{raggedright}
 \begin{multicols}{2}
-\begin{theindex}
 \sloppy
 \input ru-idx.tex
-\end{theindex}
 \end{multicols}
 \end{raggedright}
 \end{document}

@@ -821,13 +821,13 @@
 %  polyline 
 \path(2561,2442)(2522,2345)(2484,2442)
 %  text 
-\put(1088,3008){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{10.8}{\familydefault}{\mddefault}{\updefault}да}}}}}
+\put(1088,3008){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{10.8}{\familydefault}{\mddefault}{\updefault}п╢п╟}}}}}
 %  text 
-\put(750,2498){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{10.8}{\familydefault}{\mddefault}{\updefault}нет}}}}}
+\put(750,2498){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{10.8}{\familydefault}{\mddefault}{\updefault}п╫п╣я┌}}}}}
 %  text 
-\put(3097,2060){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{10.8}{\familydefault}{\mddefault}{\updefault}нет}}}}}
+\put(3097,2060){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{10.8}{\familydefault}{\mddefault}{\updefault}п╫п╣я┌}}}}}
 %  text 
-\put(2554,1563){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{10.8}{\familydefault}{\mddefault}{\updefault}да}}}}}
+\put(2554,1563){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{10.8}{\familydefault}{\mddefault}{\updefault}п╢п╟}}}}}
 %  polyline 
 \path(2510,1699)(2510,1477)(684,1477)(684,1280)
 %  polyline 

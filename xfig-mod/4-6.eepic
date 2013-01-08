@@ -16,17 +16,17 @@
 %  text 
 \put(2265,1095){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}B}}}}}
 %  text 
-\put(3871,2100){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}выходной}}}}}
+\put(3871,2100){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п╡я▀я┘п╬п╢п╫п╬п╧}}}}}
 %  text 
-\put(3871,1916){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}поток}}}}}
+\put(3871,1916){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п©п╬я┌п╬п╨}}}}}
 %  text 
-\put(3871,1733){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}кадров}}}}}
+\put(3871,1733){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п╨п╟п╢я─п╬п╡}}}}}
 %  text 
-\put(45,2100){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}входной}}}}}
+\put(45,2100){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п╡я┘п╬п╢п╫п╬п╧}}}}}
 %  text 
-\put(45,1916){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}поток}}}}}
+\put(45,1916){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п©п╬я┌п╬п╨}}}}}
 %  text 
-\put(45,1733){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}кадров}}}}}
+\put(45,1733){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п╨п╟п╢я─п╬п╡}}}}}
 %  spline 
 \blacken\path(1315,1604)(1315,1602)(1314,1598)
 	(1314,1596)(1314,1595)(1313,1593)
@@ -233,8 +233,8 @@
 \path(3481,1664)(4741,1664)
 \path(4621.000,1634.000)(4741.000,1664.000)(4621.000,1694.000)
 %  text 
-\put(1710,0){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}база данных}}}}}
+\put(1710,0){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п╠п╟п╥п╟ п╢п╟п╫п╫я▀я┘}}}}}
 %  text 
-\put(2841,1567){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}слияние}}}}}
+\put(2841,1567){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}я│п╩п╦я▐п╫п╦п╣}}}}}
 \end{picture}
 }

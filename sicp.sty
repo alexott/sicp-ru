@@ -27,6 +27,12 @@
 \textwidth=140mm
 \textheight = 194mm
                                   
+\usepackage{geometry}
+\DeclareOption{ebook}{
+    \geometry{papersize={8.8cm,11.6cm},margin=0.3cm}
+}
+\ProcessOptions
+
 %(высота полосы набора - \headheight - \headsep -\topskip) \divide \baselineskip (целочисленно) * \baselineskip + \topskip.
 
 \renewcommand{\@oddfoot}{}

@@ -68,10 +68,10 @@
 	(2055,757)(2055,1167)
 \path(2550,1917)(3975,1917)(3975,1092)
 \path(3945.000,1212.000)(3975.000,1092.000)(4005.000,1212.000)
-\put(0,1780){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}глобальное}}}}}
-\put(3750,417){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}параметры:}}}}}
-\put(3750,192){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}тело:}}}}}
+\put(0,1780){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}пЁп╩п╬п╠п╟п╩я▄п╫п╬п╣}}}}}
+\put(3750,417){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}п©п╟я─п╟п╪п╣я┌я─я▀:}}}}}
+\put(3750,192){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}я┌п╣п╩п╬:}}}}}
 \put(4125,192){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{\ttdefault}{\mddefault}{\updefault}...}}}}}
-\put(0,1600){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}окружение}}}}}
+\put(0,1600){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п╬п╨я─я┐п╤п╣п╫п╦п╣}}}}}
 \end{picture}
 }

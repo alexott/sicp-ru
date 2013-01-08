@@ -32,7 +32,7 @@
 \path(2640.000,405.000)(2610.000,525.000)(2580.000,405.000)
 \path(2610,525)(2610,105)
 %  text 
-\put(3945,4440){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}свободная}}}}}
+\put(3945,4440){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}я│п╡п╬п╠п╬п╢п╫п╟я▐}}}}}
 %  text 
 \put(0,5145){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\bfdefault}{\updefault}the-cdrs}}}}}
 %  text 
@@ -50,45 +50,45 @@
 %  text 
 \put(0,645){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\bfdefault}{\updefault}the-cdrs}}}}}
 %  text 
-\put(2445,0){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}свободная}}}}}
+\put(2445,0){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}я│п╡п╬п╠п╬п╢п╫п╟я▐}}}}}
 %  polyline 
 \path(945,3480)(4200,3480)(4200,4215)
 	(945,4215)(945,3480)
 %  polyline 
 \drawline(4200,3480)(4200,3480)
 %  text 
-\put(4380,5490){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}рабочая}}}}}
+\put(4380,5490){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}я─п╟п╠п╬я┤п╟я▐}}}}}
 %  text 
-\put(2694,871){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}свободная область}}}}}
+\put(2694,871){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}я│п╡п╬п╠п╬п╢п╫п╟я▐ п╬п╠п╩п╟я│я┌я▄}}}}}
 %  text 
-\put(4380,5295){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}память}}}}}
+\put(4380,5295){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п©п╟п╪я▐я┌я▄}}}}}
 %  text 
-\put(4380,3975){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}свободная}}}}}
+\put(4380,3975){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}я│п╡п╬п╠п╬п╢п╫п╟я▐}}}}}
 %  text 
-\put(4380,3775){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}память}}}}}
+\put(4380,3775){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п©п╟п╪я▐я┌я▄}}}}}
 %  text 
-\put(1275,6030){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}Непосредственно перед сборкой мусора}}}}}
+\put(1275,6030){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п²п╣п©п╬я│я─п╣п╢я│я┌п╡п╣п╫п╫п╬ п©п╣я─п╣п╢ я│п╠п╬я─п╨п╬п╧ п╪я┐я│п╬я─п╟}}}}}
 %  text 
-\put(1294,5371){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}смесь полезных данных и мусора}}}}}
+\put(1294,5371){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}я│п╪п╣я│я▄ п©п╬п╩п╣п╥п╫я▀я┘ п╢п╟п╫п╫я▀я┘ п╦ п╪я┐я│п╬я─п╟}}}}}
 %  text 
-\put(1694,2205){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}освобожденная память}}}}}
+\put(1694,2205){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п╬я│п╡п╬п╠п╬п╤п╢п╣п╫п╫п╟я▐ п©п╟п╪я▐я┌я▄}}}}}
 %  text 
-\put(1719,2821){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}сразу после сборки мусора}}}}}
+\put(1719,2821){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}я│я─п╟п╥я┐ п©п╬я│п╩п╣ я│п╠п╬я─п╨п╦ п╪я┐я│п╬я─п╟}}}}}
 %  text 
-\put(1994,3796){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}свободная память}}}}}
+\put(1994,3796){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}я│п╡п╬п╠п╬п╢п╫п╟я▐ п©п╟п╪я▐я┌я▄}}}}}
 %  text 
-\put(1094,871){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}полезные данные}}}}}
+\put(1094,871){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п©п╬п╩п╣п╥п╫я▀п╣ п╢п╟п╫п╫я▀п╣}}}}}
 %  text 
-\put(4380,990){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}новая}}}}}
+\put(4380,990){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п╫п╬п╡п╟я▐}}}}}
 %  text 
-\put(4380,790){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}рабочая}}}}}
+\put(4380,790){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}я─п╟п╠п╬я┤п╟я▐}}}}}
 %  text 
-\put(4380,590){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}память}}}}}
+\put(4380,590){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п©п╟п╪я▐я┌я▄}}}}}
 %  text 
-\put(4380,2394){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}новая}}}}}
+\put(4380,2394){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п╫п╬п╡п╟я▐}}}}}
 %  text 
-\put(4380,2181){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}свободная}}}}}
+\put(4380,2181){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}я│п╡п╬п╠п╬п╢п╫п╟я▐}}}}}
 %  text 
-\put(4380,1981){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}память}}}}}
+\put(4380,1981){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п©п╟п╪я▐я┌я▄}}}}}
 \end{picture}
 }

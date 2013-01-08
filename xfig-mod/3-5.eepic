@@ -16,9 +16,9 @@
 %  polyline 
 \path(740,1167)(837,1129)(740,1091)
 %  text 
-\put(0,1194){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}глобальное}}}}}
+\put(0,1194){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}пЁп╩п╬п╠п╟п╩я▄п╫п╬п╣}}}}}
 %  text 
-\put(0,1011){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}окружение}}}}}
+\put(0,1011){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}п╬п╨я─я┐п╤п╣п╫п╦п╣}}}}}
 \path(855,462)(1329,462)(1329,12)
 	(855,12)(855,462)
 \path(3255,462)(3729,462)(3729,12)

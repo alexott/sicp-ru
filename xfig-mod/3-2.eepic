@@ -9,11 +9,11 @@
 {\renewcommand{\dashlinestretch}{30}
 \begin{picture}(2783,1779)(0,-10)
 %  text 
-\put(186,1503){\makebox(0,0)[lb]{\smash{{{\SetFigFont{9}{10.8}{\familydefault}{\mddefault}{\updefault}глобальное}}}}}
+\put(186,1503){\makebox(0,0)[lb]{\smash{{{\SetFigFont{9}{10.8}{\familydefault}{\mddefault}{\updefault}пЁп╩п╬п╠п╟п╩я▄п╫п╬п╣}}}}}
 %  text 
-\put(186,1320){\makebox(0,0)[lb]{\smash{{{\SetFigFont{9}{10.8}{\familydefault}{\mddefault}{\updefault}окружение}}}}}
+\put(186,1320){\makebox(0,0)[lb]{\smash{{{\SetFigFont{9}{10.8}{\familydefault}{\mddefault}{\updefault}п╬п╨я─я┐п╤п╣п╫п╦п╣}}}}}
 %  text 
-\put(1076,1569){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}другие переменные}}}}}
+\put(1076,1569){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}п╢я─я┐пЁп╦п╣ п©п╣я─п╣п╪п╣п╫п╫я▀п╣}}}}}
 %  text 
 \put(1076,1275){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}square:}}}}}
 %  text 

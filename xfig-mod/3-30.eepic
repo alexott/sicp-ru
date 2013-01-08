@@ -335,7 +335,7 @@
 %  polyline 
 \drawline(1949,525)(1949,525)
 %  text 
-\put(1724,3750){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}âÁÎË1}}}}}
+\put(1724,3750){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}Ğ‘Ğ°Ğ½Ğº1}}}}}
 %  text 
 \put(1724,3150){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}\$100}}}}}
 %  text 
@@ -930,11 +930,11 @@
 %  polyline 
 \drawline(4349,525)(4349,525)
 %  text 
-\put(0,0){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}×ÒÅÍÑ}}}}}
+\put(0,0){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}Ğ²Ñ€ĞµĞ¼Ñ}}}}}
 %  text 
-\put(525,3750){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}ğÅÔÒ}}}}}
+\put(525,3750){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}ĞŸĞµÑ‚Ñ€}}}}}
 %  text 
-\put(3000,3750){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}ğÁ×ÅÌ}}}}}
+\put(3000,3750){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}ĞŸĞ°Ğ²ĞµĞ»}}}}}
 %  text 
 \put(2999,3150){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}\$5}}}}}
 %  text 
@@ -944,7 +944,7 @@
 %  text 
 \put(600,750){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}\$17}}}}}
 %  text 
-\put(4124,3750){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}âÁÎË2}}}}}
+\put(4124,3750){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}Ğ‘Ğ°Ğ½Ğº2}}}}}
 %  text 
 \put(4124,3150){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}\$300}}}}}
 %  text 

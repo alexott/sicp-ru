@@ -79,7 +79,7 @@
 \path(1270.000,132.000)(1300.000,12.000)(1330.000,132.000)
 \path(3300,387)(4050,387)(4050,736)
 \path(4080.000,616.000)(4050.000,736.000)(4020.000,616.000)
-\put(0,1662){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}окружение}}}}}
-\put(0,1887){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}глобальное}}}}}
+\put(0,1662){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п╬п╨я─я┐п╤п╣п╫п╦п╣}}}}}
+\put(0,1887){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}пЁп╩п╬п╠п╟п╩я▄п╫п╬п╣}}}}}
 \end{picture}
 }

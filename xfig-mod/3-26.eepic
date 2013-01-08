@@ -11,13 +11,13 @@
 %  text 
 \put(3180,462){\makebox(0,0)[lb]{\smash{{{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}out}}}}}
 %  text 
-\put(1372,816){\makebox(0,0)[lb]{\smash{{{\SetFigFont{9}{10.8}{\rmdefault}{\mddefault}{\updefault}–œÃ’-}}}}}
+\put(1372,816){\makebox(0,0)[lb]{\smash{{{\SetFigFont{9}{10.8}{\rmdefault}{\mddefault}{\updefault}–ø–æ–ª—É-}}}}}
 %  text 
-\put(1372,616){\makebox(0,0)[lb]{\smash{{{\SetFigFont{9}{10.8}{\rmdefault}{\mddefault}{\updefault}”’ÕÕ¡‘œ“}}}}}
+\put(1372,616){\makebox(0,0)[lb]{\smash{{{\SetFigFont{9}{10.8}{\rmdefault}{\mddefault}{\updefault}—Å—É–º–º–∞—Ç–æ—Ä}}}}}
 %  text 
-\put(562,491){\makebox(0,0)[lb]{\smash{{{\SetFigFont{9}{10.8}{\rmdefault}{\mddefault}{\updefault}–œÃ’-}}}}}
+\put(562,491){\makebox(0,0)[lb]{\smash{{{\SetFigFont{9}{10.8}{\rmdefault}{\mddefault}{\updefault}–ø–æ–ª—É-}}}}}
 %  text 
-\put(562,291){\makebox(0,0)[lb]{\smash{{{\SetFigFont{9}{10.8}{\rmdefault}{\mddefault}{\updefault}”’ÕÕ¡‘œ“}}}}}
+\put(562,291){\makebox(0,0)[lb]{\smash{{{\SetFigFont{9}{10.8}{\rmdefault}{\mddefault}{\updefault}—Å—É–º–º–∞—Ç–æ—Ä}}}}}
 %  polyline 
 \path(495,12)(2745,12)(2745,1227)
 	(495,1227)(495,12)
@@ -44,7 +44,7 @@
 %  text 
 \put(3105,867){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\bfdefault}{\updefault}SUM}}}}}
 %  text 
-\put(2262,492){\makebox(0,0)[lb]{\smash{{{\SetFigFont{9}{10.8}{\rmdefault}{\mddefault}{\updefault}…Ã…}}}}}
+\put(2262,492){\makebox(0,0)[lb]{\smash{{{\SetFigFont{9}{10.8}{\rmdefault}{\mddefault}{\updefault}–∏–ª–∏}}}}}
 %  text 
 \put(150,882){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\bfdefault}{\updefault}A}}}}}
 %  text 

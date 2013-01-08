@@ -15,21 +15,21 @@
 %  text 
 \put(375,200){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}origin}}}}}
 %  text 
-\put(0,1650){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}рамки}}}}}
+\put(0,1650){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}я─п╟п╪п╨п╦}}}}}
 %  text 
-\put(2850,1350){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}рамки}}}}}
+\put(2850,1350){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}я─п╟п╪п╨п╦}}}}}
 %  text 
-\put(375,0){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}рамки}}}}}
+\put(375,0){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}я─п╟п╪п╨п╦}}}}}
 %  text 
-\put(2527,100){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}Точка (0,0) на экране}}}}}
+\put(2527,100){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}п╒п╬я┤п╨п╟ (0,0) п╫п╟ я█п╨я─п╟п╫п╣}}}}}
 %  polyline 
 \dashline{60.000}(2737,1582)(2137,2542)(442,1537)
 %  text 
-\put(0,2050){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}вектор}}}}}
+\put(0,2050){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}п╡п╣п╨я┌п╬я─}}}}}
 %  text 
-\put(2850,1750){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}вектор}}}}}
+\put(2850,1750){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}п╡п╣п╨я┌п╬я─}}}}}
 %  text 
-\put(375,400){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}вектор}}}}}
+\put(375,400){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}п╡п╣п╨я┌п╬я─}}}}}
 %  spline 
 \dashline{60.000}(2361,231)(2361,230)(2360,227)
 	(2360,221)(2359,218)(2359,217)

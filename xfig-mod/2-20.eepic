@@ -27,8 +27,8 @@
 \path(612,312)(2922,1445)
 \put(2922,1445){\blacken\ellipse{60}{60}}
 \put(2922,1445){\ellipse{60}{60}}
-\put(443,2245){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}íÎÉÍÙÅ}}}}}
-\put(3518,295){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}äÅÊÓÔ×ÉÔÅÌØÎÙÅ}}}}}
+\put(443,2245){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}ĞœĞ½Ğ¸Ğ¼Ñ‹Ğµ}}}}}
+\put(3518,295){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}Ğ”ĞµĞ¹ÑÑ‚Ğ²Ğ¸Ñ‚ĞµĞ»ÑŒĞ½Ñ‹Ğµ}}}}}
 \put(3068,1495){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\itdefault}z = x + iy = re}}}}}
 \put(1118,370){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}A}}}}}
 \put(4253,1625){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\itdefault}iA}}}}}

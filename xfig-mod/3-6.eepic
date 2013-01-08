@@ -17,9 +17,9 @@
 \path(855,1739)(3127,1739)(3127,1027)
 	(855,1027)(855,1739)
 %  text 
-\put(0,1441){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}глобальное}}}}}
+\put(0,1441){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}пЁп╩п╬п╠п╟п╩я▄п╫п╬п╣}}}}}
 %  text 
-\put(0,1237){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}окружение}}}}}
+\put(0,1237){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}п╬п╨я─я┐п╤п╣п╫п╦п╣}}}}}
 %  polyline 
 \path(498,1377)(837,1377)
 \path(717.000,1347.000)(837.000,1377.000)(717.000,1407.000)

@@ -11,25 +11,25 @@
 %  text 
 \put(2325,750){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{14.4}{\rmdefault}{\mddefault}{\updefault}\$75}}}}}
 %  text 
-\put(375,1875){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}установить balance в \$90}}}}}
+\put(375,1875){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}я┐я│я┌п╟п╫п╬п╡п╦я┌я▄ balance п╡ \$90}}}}}
 %  text 
 \put(2325,1439){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{14.4}{\rmdefault}{\mddefault}{\updefault}\$90}}}}}
 %  text 
 \put(2325,3225){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{14.4}{\rmdefault}{\mddefault}{\updefault}\$100}}}}}
 %  text 
-\put(2925,1275){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}установить balance в \$75}}}}}
+\put(2925,1275){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}я┐я│я┌п╟п╫п╬п╡п╦я┌я▄ balance п╡ \$75}}}}}
 %  text 
-\put(374,3765){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{14.4}{\rmdefault}{\mddefault}{\updefault}Петр}}}}}
+\put(374,3765){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{14.4}{\rmdefault}{\mddefault}{\updefault}п÷п╣я┌я─}}}}}
 %  text 
-\put(4201,3765){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{14.4}{\rmdefault}{\mddefault}{\updefault}Павел}}}}}
+\put(4201,3765){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{14.4}{\rmdefault}{\mddefault}{\updefault}п÷п╟п╡п╣п╩}}}}}
 %  text 
-\put(525,2775){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}Считать balance: \$100}}}}}
+\put(525,2775){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п║я┤п╦я┌п╟я┌я▄ balance: \$100}}}}}
 %  text 
-\put(3000,2700){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}Считать balance: \$100}}}}}
+\put(3000,2700){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п║я┤п╦я┌п╟я┌я▄ balance: \$100}}}}}
 %  text 
-\put(300,2325){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}новое значение: 100-10=90}}}}}
+\put(300,2325){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п╫п╬п╡п╬п╣ п╥п╫п╟я┤п╣п╫п╦п╣: 100-10=90}}}}}
 %  text 
-\put(2850,2100){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}новое значение: 100-25=75}}}}}
+\put(2850,2100){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п╫п╬п╡п╬п╣ п╥п╫п╟я┤п╣п╫п╦п╣: 100-25=75}}}}}
 \put(2475,825){\ellipse{540}{540}}
 \put(2475,825){\ellipse{540}{540}}
 \put(2475,1500){\ellipse{540}{540}}
@@ -102,7 +102,7 @@
 \path(2880,2850)(4830,2850)
 \path(4935,2745)(4935,2730)
 \path(4830,2625)(2880,2625)
-\put(2325,3765){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{14.4}{\rmdefault}{\mddefault}{\updefault}Банк}}}}}
-\put(0,0){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}время}}}}}
+\put(2325,3765){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{14.4}{\rmdefault}{\mddefault}{\updefault}п▒п╟п╫п╨}}}}}
+\put(0,0){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п╡я─п╣п╪я▐}}}}}
 \end{picture}
 }

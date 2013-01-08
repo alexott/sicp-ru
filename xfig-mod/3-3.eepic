@@ -38,9 +38,9 @@
 \path(3448,456)(3448,1063)
 \path(3478.000,943.000)(3448.000,1063.000)(3418.000,943.000)
 %  text 
-\put(0,1473){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}глобальное}}}}}
+\put(0,1473){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}пЁп╩п╬п╠п╟п╩я▄п╫п╬п╣}}}}}
 %  text 
-\put(0,1289){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}окружение}}}}}
+\put(0,1289){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}п╬п╨я─я┐п╤п╣п╫п╦п╣}}}}}
 %  text 
 \put(0,734){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}(square 5)}}}}}
 \put(1770,387){\blacken\ellipse{60}{60}}
@@ -53,6 +53,6 @@
 	(3710,12)(3710,462)
 \path(1460,387)(1460,12)
 \path(1430.000,132.000)(1460.000,12.000)(1490.000,132.000)
-\put(860,1587){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}другие переменные}}}}}
+\put(860,1587){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}п╢я─я┐пЁп╦п╣ п©п╣я─п╣п╪п╣п╫п╫я▀п╣}}}}}
 \end{picture}
 }

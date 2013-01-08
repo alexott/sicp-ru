@@ -21,15 +21,15 @@
 \path(29,212)(1424,212)
 \path(1304.000,182.000)(1424.000,212.000)(1304.000,242.000)
 %  text 
-\put(0,292){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}запросы Павла}}}}}
+\put(0,292){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п╥п╟п©я─п╬я│я▀ п÷п╟п╡п╩п╟}}}}}
 %  text 
-\put(1575,452){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}слияние}}}}}
+\put(1575,452){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}я│п╩п╦я▐п╫п╦п╣}}}}}
 %  text 
-\put(2850,562){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}банковский}}}}}
+\put(2850,562){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п╠п╟п╫п╨п╬п╡я│п╨п╦п╧}}}}}
 %  text 
-\put(2850,362){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}счет}}}}}
+\put(2850,362){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}я│я┤п╣я┌}}}}}
 %  text 
-\put(0,792){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}запросы Петра}}}}}
+\put(0,792){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п╥п╟п©я─п╬я│я▀ п÷п╣я┌я─п╟}}}}}
 \path(2700,912)(3825,912)(3825,12)
 	(2700,12)(2700,912)
 \path(1425,912)(2250,912)(2250,12)

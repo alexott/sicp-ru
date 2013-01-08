@@ -31,9 +31,9 @@
 %  text 
 \put(969,1583){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}sum-of-squares:}}}}}
 %  text 
-\put(0,1464){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}глобальное}}}}}
+\put(0,1464){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}пЁп╩п╬п╠п╟п╩я▄п╫п╬п╣}}}}}
 %  text 
-\put(0,1281){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}окружение}}}}}
+\put(0,1281){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\familydefault}{\mddefault}{\updefault}п╬п╨я─я┐п╤п╣п╫п╦п╣}}}}}
 \put(1591,395){\ellipse{320}{320}}
 \put(1292,395){\ellipse{320}{320}}
 \put(1292,395){\blacken\ellipse{100}{100}}

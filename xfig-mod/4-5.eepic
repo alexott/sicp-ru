@@ -19,13 +19,13 @@
 \path(1968,1140)(2523,1140)
 \path(2403.000,1110.000)(2523.000,1140.000)(2403.000,1170.000)
 %  text 
-\put(0,1530){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}входной поток}}}}}
+\put(0,1530){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п╡я┘п╬п╢п╫п╬п╧ п©п╬я┌п╬п╨}}}}}
 %  text 
-\put(0,1346){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}кадров}}}}}
+\put(0,1346){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п╨п╟п╢я─п╬п╡}}}}}
 %  text 
-\put(3378,1530){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}выходной поток}}}}}
+\put(3378,1530){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п╡я▀я┘п╬п╢п╫п╬п╧ п©п╬я┌п╬п╨}}}}}
 %  text 
-\put(3378,1346){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}кадров}}}}}
+\put(3378,1346){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п╨п╟п╢я─п╬п╡}}}}}
 %  polyline 
 \path(1653,990)(1968,990)(1968,1305)
 	(1653,1305)(1653,990)
@@ -127,6 +127,6 @@
 \path(1383,600)(3018,600)(3018,1695)
 	(1383,1695)(1383,600)
 %  text 
-\put(1848,0){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}база данных}}}}}
+\put(1848,0){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}п╠п╟п╥п╟ п╢п╟п╫п╫я▀я┘}}}}}
 \end{picture}
 }

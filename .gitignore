@@ -1,2 +1,11 @@
 *~
 /auto
+*.swp
+*.pdf
+*.tox
+*.aux
+*.log
+*.out
+*.toc
+*.idx
+ru-idx.tex
