@@ -30,9 +30,9 @@
 %  text 
 \put(2165,1997){\makebox(0,0)[lb]{\smash{{{\SetFigFont{9}{10.8}{\ttdefault}{\mddefault}{\updefault}...}}}}}
 %  text 
-\put(954,1747){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}W2:}}}}}
+\put(954,1747){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}W1:}}}}}
 %  text 
-\put(954,1497){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}W1:}}}}}
+\put(954,1497){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}W2:}}}}}
 %  text 
 \put(3600,912){\makebox(0,0)[lb]{\smash{{{\SetFigFont{10}{12.0}{\ttdefault}{\mddefault}{\updefault}balance: 100}}}}}
 %  text 
