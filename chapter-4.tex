@@ -5916,8 +5916,8 @@ query||составной запрос|||}Простые запросы явля
 правило
 
 \begin{Verbatim}[fontsize=\small]
-(rule (одчиняется ?staff-person ?boss) \index{ru}{подчиняется (правило)||||pd|}
-      (or (начальник ?staff-prerson ?boss)
+(rule (подчиняется ?staff-person ?boss) \index{ru}{подчиняется (правило)||||pd|}
+      (or (начальник ?staff-person ?boss)
           (and (начальник ?staff-person ?middle-manager)
                (подчиняется ?middle-manager ?boss))))
 \end{Verbatim}
